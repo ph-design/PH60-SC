@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "eta")(type "KiCad")(uri "${KIPRJMOD}/symbol/eta6093.kicad_sym")(options "")(descr ""))
+)
