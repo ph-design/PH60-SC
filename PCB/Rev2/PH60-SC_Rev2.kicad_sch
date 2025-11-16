@@ -6182,6 +6182,28 @@
 			)
 		)
 	)
+	(global_label "col_1"
+		(shape input)
+		(at 256.54 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cde8bca-493a-4abd-a0ae-5e8e532387dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.6051 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD_Output"
 		(shape input)
 		(at 190.5 243.84 0)
@@ -6248,7 +6270,7 @@
 			)
 		)
 	)
-	(global_label "col_1"
+	(global_label "row_4"
 		(shape input)
 		(at 256.54 149.86 0)
 		(fields_autoplaced yes)
@@ -6258,9 +6280,9 @@
 			)
 			(justify left)
 		)
-		(uuid "80cf9634-f546-4359-a0a2-495aac62fea9")
+		(uuid "783eb19b-2b0b-462c-b3e9-705a88c5c2e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.6051 149.86 0)
+			(at 264.968 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,28 +6468,6 @@
 			)
 		)
 	)
-	(global_label "row_4"
-		(shape input)
-		(at 256.54 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cc132ed2-a610-4dc1-85c2-cb13a0d946d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.968 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CHRG"
 		(shape input)
 		(at 266.7 205.74 0)
@@ -6481,6 +6481,28 @@
 		(uuid "cc1f3daa-d8c6-4cd9-bb4d-84b273febc11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.1715 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB_SW"
+		(shape input)
+		(at 256.54 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f70e919c-d01e-41e5-9a13-0d4bcc9086ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.9637 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
