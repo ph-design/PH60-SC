@@ -529,7 +529,7 @@
       "plot": "../../Production/PH60-Rev2-Multi/",
       "pos_files": "../../Production/PH60-Rev2-Multi/",
       "specctra_dsn": "",
-      "step": "../../../../PH60_Rev2_slim.glb",
+      "step": "../../../../../../Desktop/PH60_Rev2_slim.step",
       "svg": "",
       "vrml": ""
     },
