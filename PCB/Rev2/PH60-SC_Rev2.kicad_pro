@@ -511,6 +511,7 @@
       "version": 4
     },
     "net_colors": {
+      "+BATT": "rgb(137, 255, 154)",
       "GND": "rgb(3, 255, 252)"
     },
     "netclass_assignments": null,
