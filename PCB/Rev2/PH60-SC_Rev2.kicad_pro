@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -510,10 +510,7 @@
     "meta": {
       "version": 4
     },
-    "net_colors": {
-      "+BATT": "rgb(137, 255, 154)",
-      "GND": "rgb(3, 255, 252)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -530,7 +527,7 @@
       "plot": "../../Production/PH60-Rev2-Multi/",
       "pos_files": "../../Production/PH60-Rev2-Multi/",
       "specctra_dsn": "",
-      "step": "../../../../../../Desktop/PH60_Rev2_slim.step",
+      "step": "../../Production/PH60_Rev2_slim.step",
       "svg": "",
       "vrml": ""
     },
