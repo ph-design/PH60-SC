@@ -7,7 +7,7 @@
     "hidden_nets": [
       "+BATT"
     ],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 2,
     "opacity": {
       "images": 0.699999988079071,
@@ -90,16 +90,16 @@
       9
     ],
     "col_widths": [
-      39,
-      39,
-      39,
-      39,
-      39,
-      39,
-      39,
-      39,
-      39,
-      198
+      49,
+      49,
+      49,
+      49,
+      49,
+      49,
+      49,
+      49,
+      49,
+      248
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
