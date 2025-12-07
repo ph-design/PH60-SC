@@ -1362,6 +1362,12 @@
 		(uuid "2314753f-b9bd-4239-b096-9b4e47544b0b")
 	)
 	(junction
+		(at 81.28 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a15ccef-67e9-4400-9ce6-6cad40c8144d")
+	)
+	(junction
 		(at 179.07 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1372,6 +1378,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "424f6159-e918-4cdf-9785-b4a4b8472c63")
+	)
+	(junction
+		(at 148.59 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5236a7d7-5074-4a82-9c8c-73f17bed3fa4")
 	)
 	(junction
 		(at 91.44 58.42)
@@ -1549,6 +1561,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 58.42) (xy 85.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581ae218-f0ad-4c28-be9d-48a78289497e")
+	)
+	(wire
+		(pts
 			(xy 129.54 50.8) (xy 139.7 50.8)
 		)
 		(stroke
@@ -1559,7 +1581,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 52.07) (xy 72.39 58.42)
+			(xy 66.04 50.8) (xy 66.04 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1576,6 +1598,16 @@
 			(type default)
 		)
 		(uuid "65478aa9-336f-4b8b-b33c-54edc9ae8988")
+	)
+	(wire
+		(pts
+			(xy 148.59 58.42) (xy 154.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a7a5f0-f3d3-46f8-8791-ce60462d568d")
 	)
 	(wire
 		(pts
@@ -1609,7 +1641,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 58.42) (xy 154.94 58.42)
+			(xy 139.7 58.42) (xy 148.59 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1719,7 +1751,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 58.42) (xy 85.09 58.42)
+			(xy 66.04 58.42) (xy 81.28 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1749,6 +1781,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 48.26) (xy 148.59 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4883d3d-220a-4822-96ae-bf2c78ddc8da")
+	)
+	(wire
+		(pts
 			(xy 154.94 58.42) (xy 154.94 57.15)
 		)
 		(stroke
@@ -1756,6 +1798,16 @@
 			(type default)
 		)
 		(uuid "db4777be-6fce-44f9-917a-d5af47b18aa7")
+	)
+	(wire
+		(pts
+			(xy 148.59 48.26) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d6bc08-7af4-4994-ab41-f16e25a13d1f")
 	)
 	(wire
 		(pts
@@ -1786,6 +1838,16 @@
 			(type default)
 		)
 		(uuid "e5e7d0bf-6355-424a-8e45-8048b6051d77")
+	)
+	(wire
+		(pts
+			(xy 81.28 48.26) (xy 81.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee5787d-27e4-4aa1-83e5-8ca00725682c")
 	)
 	(global_label "ADC"
 		(shape input)
@@ -2682,7 +2744,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 72.39 52.07 0)
+		(at 66.04 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2691,7 +2753,7 @@
 		(fields_autoplaced yes)
 		(uuid "9261afad-8081-4ca5-b71f-62a25ae0b890")
 		(property "Reference" "#PWR037"
-			(at 72.39 55.88 0)
+			(at 66.04 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2762,7 @@
 			)
 		)
 		(property "Value" "VBUS_USB"
-			(at 74.93 50.7999 0)
+			(at 68.58 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 52.07 0)
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 52.07 0)
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 72.39 52.07 0)
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

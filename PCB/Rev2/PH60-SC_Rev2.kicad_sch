@@ -4181,8 +4181,20 @@
 		(uuid "f6d43647-93ac-430b-be39-732215f292ff")
 	)
 	(no_connect
+		(at 256.54 152.4)
+		(uuid "1a463984-f09b-4d8d-85bc-9e138abb53a8")
+	)
+	(no_connect
 		(at 256.54 200.66)
 		(uuid "270e8ecd-10a1-41b9-8a07-befbf93e327f")
+	)
+	(no_connect
+		(at 256.54 162.56)
+		(uuid "28f9f8c8-f0af-42f5-88ec-4285d013a6fd")
+	)
+	(no_connect
+		(at 256.54 142.24)
+		(uuid "345b08fe-21b9-4995-a66b-4df0fb111970")
 	)
 	(no_connect
 		(at 256.54 193.04)
@@ -4213,6 +4225,14 @@
 		(uuid "8be138b0-b755-43f2-a9cf-77d98801325e")
 	)
 	(no_connect
+		(at 256.54 137.16)
+		(uuid "914925bb-f776-4fff-96db-4fc8316e6fc7")
+	)
+	(no_connect
+		(at 256.54 93.98)
+		(uuid "a053cc55-b106-4ba5-9846-10302aec6803")
+	)
+	(no_connect
 		(at 256.54 104.14)
 		(uuid "acb6e897-47f2-4f2f-83dc-41ff3496bf14")
 	)
@@ -4223,6 +4243,10 @@
 	(no_connect
 		(at 256.54 170.18)
 		(uuid "c00db1e0-0fb1-42cd-80e8-57c1ad7f5253")
+	)
+	(no_connect
+		(at 256.54 147.32)
+		(uuid "c1acd414-21be-4d0a-ae48-ce5cf3a142ea")
 	)
 	(no_connect
 		(at 256.54 127)
@@ -4237,8 +4261,16 @@
 		(uuid "d627a91c-65ff-4e6c-8b15-87355c17f98f")
 	)
 	(no_connect
+		(at 256.54 160.02)
+		(uuid "e36679e5-5bae-4adf-a313-03b91bc88091")
+	)
+	(no_connect
 		(at 256.54 111.76)
 		(uuid "ea18bd55-2926-41d2-a2dc-b20cc4cdc5bf")
+	)
+	(no_connect
+		(at 256.54 157.48)
+		(uuid "eadd23c4-ce7f-4a9d-a5f3-d08919f4e729")
 	)
 	(wire
 		(pts
@@ -5949,6 +5981,16 @@
 			(justify left bottom)
 		)
 		(uuid "ecc714c9-2651-4b47-88d6-95783a83019a")
+	)
+	(label "VBUS"
+		(at 346.71 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f74c7107-12be-4b00-a5da-915ae326d597")
 	)
 	(global_label "col_3"
 		(shape input)
@@ -8558,72 +8600,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 350.52 185.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74ab778d-2528-41f5-abd3-abd899f392c1")
-		(property "Reference" "#FLG01"
-			(at 350.52 187.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 350.52 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 350.52 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 350.52 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3091bd3c-c768-4914-99c9-5a5aa850c59a")
-		)
-		(instances
-			(project ""
-				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 218.44 63.5 0)
 		(unit 1)
@@ -9106,6 +9082,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 346.71 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97a9f3bb-b27a-4260-8fe8-42e9fe5b1f1e")
+		(property "Reference" "#PWR019"
+			(at 350.52 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 342.9 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 346.71 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c40b3900-3232-41a5-84d1-b54b80261030")
+		)
+		(instances
+			(project "PH60-SC_Rev2"
+				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 369.57 223.52 0)
 		(unit 1)
@@ -9431,72 +9474,6 @@
 			(project "PH64lite"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 350.52 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7802aa5-157b-4bb0-89fb-20da9c3ce52e")
-		(property "Reference" "#PWR010"
-			(at 350.52 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 350.52 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 350.52 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86de3c00-f98c-40d1-980b-4bd81e221bfb")
-		)
-		(instances
-			(project "PH64lite"
-				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10753,6 +10730,72 @@
 			(project ""
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 346.71 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f19f5e27-f50d-40e8-9fd8-c3526c7ffd9c")
+		(property "Reference" "#FLG05"
+			(at 346.71 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 346.71 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 346.71 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d4ca58e-a4d8-45f0-84cd-018bff2b4877")
+		)
+		(instances
+			(project "PH60-SC_Rev2"
+				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
