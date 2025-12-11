@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm"
+			(at 11.684 -44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,7 +70,7 @@
 				)
 			)
 			(pin input line
-				(at 3.81 -7.62 0)
+				(at 3.81 -11.43 0)
 				(length 2.54)
 				(name "ISET"
 					(effects
@@ -88,43 +88,7 @@
 				)
 			)
 			(pin input line
-				(at 3.81 -12.7 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 3.81 -19.05 0)
-				(length 2.54)
-				(name "BAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 3.81 -26.67 0)
+				(at 3.81 -25.4 0)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -141,26 +105,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 3.81 -30.48 0)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output non_logic
-				(at 15.24 -2.54 270)
+				(at 3.81 -30.48 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -170,6 +116,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -2.54 270)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -195,8 +159,44 @@
 					)
 				)
 			)
+			(pin input line
+				(at 22.86 -2.54 270)
+				(length 2.54)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -15.24 180)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
-				(at 27.94 -12.7 180)
+				(at 27.94 -25.4 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -214,7 +214,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 -26.67 180)
+				(at 27.94 -31.75 180)
 				(length 2.54)
 				(name "CHRG"
 					(effects
