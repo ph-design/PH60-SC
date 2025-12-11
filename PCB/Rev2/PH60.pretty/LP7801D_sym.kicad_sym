@@ -49,14 +49,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "LP7801D_1_1"
 			(rectangle
 				(start 6.35 -5.08)
@@ -105,7 +97,7 @@
 					)
 				)
 			)
-			(pin output non_logic
+			(pin no_connect non_logic
 				(at 3.81 -30.48 0)
 				(length 2.54)
 				(name "NC"
@@ -123,7 +115,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 10.16 -2.54 270)
 				(length 2.54)
 				(name "VIN"
@@ -141,7 +133,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 15.24 -36.83 90)
 				(length 2.54)
 				(name "GND"
@@ -159,7 +151,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 22.86 -2.54 270)
 				(length 2.54)
 				(name "BAT"
@@ -195,7 +187,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 27.94 -25.4 180)
 				(length 2.54)
 				(name "VOUT"
