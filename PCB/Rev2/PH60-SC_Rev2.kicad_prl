@@ -4,10 +4,8 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "+BATT"
-    ],
-    "high_contrast_mode": 0,
+    "hidden_nets": [],
+    "high_contrast_mode": 2,
     "net_color_mode": 2,
     "opacity": {
       "images": 0.699999988079071,
@@ -22,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
