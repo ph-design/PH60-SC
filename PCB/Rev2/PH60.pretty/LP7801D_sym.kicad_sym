@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm"
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm"
 			(at 11.684 -44.958 0)
 			(effects
 				(font

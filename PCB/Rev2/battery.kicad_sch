@@ -673,7 +673,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm"
+			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm"
 				(at 11.684 -44.958 0)
 				(effects
 					(font
@@ -1732,6 +1732,97 @@
 		)
 	)
 	(symbol
+		(lib_id "LP7801D_sym:LP7801D")
+		(at 97.79 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a958f71-9a65-4223-8130-b05575f62c74")
+		(property "Reference" "U2"
+			(at 115.1733 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 115.1733 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm"
+			(at 109.474 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "860fd024-c7c1-4599-a97e-177130b28f56")
+		)
+		(pin "6"
+			(uuid "a7f12c83-7dec-43b2-a0da-49bbfe26da22")
+		)
+		(pin "1"
+			(uuid "ad509d40-6a9b-4154-adc8-ab543b2d0671")
+		)
+		(pin "4"
+			(uuid "730cb818-c430-4bdb-9dff-05ae9e116187")
+		)
+		(pin "2"
+			(uuid "ec9a7151-550b-4e65-8971-481aba5913c1")
+		)
+		(pin "8"
+			(uuid "e4509b06-8b83-4d6f-b363-105d527b11b5")
+		)
+		(pin "3"
+			(uuid "dd8a3905-1c80-45bd-81e5-5dac35f00738")
+		)
+		(pin "7"
+			(uuid "bed0af69-4e1b-4cfc-bb39-b70d4b370724")
+		)
+		(pin "5"
+			(uuid "00c0296d-223e-4391-aebe-bfef157ab085")
+		)
+		(instances
+			(project ""
+				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 135.89 92.71 0)
 		(unit 1)
@@ -2093,98 +2184,6 @@
 			(project "PH60-SC_Rev2"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LP7801D_sym:LP7801D")
-		(at 97.79 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4bbbbd6-13bb-4a58-bb9d-f5fe14ecfb33")
-		(property "Reference" "U3"
-			(at 115.1733 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 115.1733 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm"
-			(at 109.474 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f39d4889-25ce-4f79-abe1-bebdcf6320bf")
-		)
-		(pin "4"
-			(uuid "aa683cb4-b9bc-411c-bdb0-f76809a18dea")
-		)
-		(pin "7"
-			(uuid "9114b090-650f-473c-9705-14830d625506")
-		)
-		(pin "2"
-			(uuid "1bb93d9b-8fcc-4724-9875-50a4c19d9000")
-		)
-		(pin "6"
-			(uuid "3b71d579-c155-47e0-9042-d54f68c77e35")
-		)
-		(pin "9"
-			(uuid "04ef717a-398a-401b-9381-71de645cffc2")
-		)
-		(pin "5"
-			(uuid "a8b49a56-15e3-4077-96ec-f885c66716a0")
-		)
-		(pin "3"
-			(uuid "a412c4ca-f144-461b-9a76-dae1b9b72f8c")
-		)
-		(pin "8"
-			(uuid "cb7f73da-79db-4148-bc27-0bbe5e2cda97")
-		)
-		(instances
-			(project ""
-				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
-					(reference "U3")
 					(unit 1)
 				)
 			)
