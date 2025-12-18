@@ -802,6 +802,12 @@
 		(uuid "3afd4bb9-1b41-4e91-969c-b3149f3158f1")
 	)
 	(junction
+		(at 99.06 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e04973a-67d0-4b58-9734-a7199486dc6a")
+	)
+	(junction
 		(at 142.24 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1264,6 +1270,12 @@
 		(uuid "e13c39e0-61c1-4353-8a46-8ca5738af831")
 	)
 	(junction
+		(at 99.06 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2fd4bd7-10ce-4dea-9749-a7793780cc95")
+	)
+	(junction
 		(at 142.24 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1457,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 45.72) (xy 100.33 45.72)
+			(xy 91.44 45.72) (xy 99.06 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1847,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 40.64) (xy 100.33 40.64)
+			(xy 91.44 40.64) (xy 99.06 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1864,6 +1876,16 @@
 			(type default)
 		)
 		(uuid "38791b81-144a-4fcb-b0aa-6afba7057ef5")
+	)
+	(wire
+		(pts
+			(xy 99.06 40.64) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c8c363-03e0-4abd-9dea-e3ecbbbf107f")
 	)
 	(wire
 		(pts
@@ -2434,6 +2456,16 @@
 			(type default)
 		)
 		(uuid "7faae608-5fd9-4eea-bafa-9b1e3a0c81a9")
+	)
+	(wire
+		(pts
+			(xy 99.06 45.72) (xy 100.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800901ee-39a6-4a39-9fd0-230b8b2d05f0")
 	)
 	(wire
 		(pts
@@ -3533,6 +3565,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 99.06 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06814251-5cba-4895-938e-5792a1a28cb7")
+		(property "Reference" "C28"
+			(at 94.742 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 94.234 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c738558-e914-4b8e-9b1e-abbce22c602f")
+		)
+		(pin "1"
+			(uuid "abdf8bdd-30b4-4061-be3e-258c1947e3e7")
+		)
+		(instances
+			(project "PH60-SC_Rev2"
+				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/972fcb42-aba7-427d-9ffc-eb5767ba1d3c"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 209.55 143.51 0)
 		(unit 1)
@@ -3991,7 +4092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "100n"
 			(at 76.454 46.99 0)
 			(effects
 				(font
@@ -5153,73 +5254,6 @@
 			(project "PH60-SC_Rev2"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/972fcb42-aba7-427d-9ffc-eb5767ba1d3c"
 					(reference "RGB18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 100.33 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49f1c2ba-453f-45ba-bd91-27b22568632a")
-		(property "Reference" "C27"
-			(at 94.742 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12p"
-			(at 97.282 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 100.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "db43aa45-d34a-42e4-a88d-924a959b2eac")
-		)
-		(pin "1"
-			(uuid "d6f94682-b583-452f-bb8b-3f01162b470d")
-		)
-		(instances
-			(project "PH60-SC_Rev2"
-				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/972fcb42-aba7-427d-9ffc-eb5767ba1d3c"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -7625,7 +7659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "100n"
 			(at 86.614 46.99 0)
 			(effects
 				(font
