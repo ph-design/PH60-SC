@@ -4344,6 +4344,10 @@
 		(uuid "f6d43647-93ac-430b-be39-732215f292ff")
 	)
 	(no_connect
+		(at 256.54 132.08)
+		(uuid "05936928-6ab5-41af-937c-6403d41bd598")
+	)
+	(no_connect
 		(at 256.54 200.66)
 		(uuid "270e8ecd-10a1-41b9-8a07-befbf93e327f")
 	)
@@ -6557,7 +6561,7 @@
 	)
 	(global_label "BATT_STAT"
 		(shape input)
-		(at 281.94 160.02 0)
+		(at 256.54 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6567,7 +6571,7 @@
 		)
 		(uuid "d3971c49-df7f-4aea-a138-9b4b7bfcbc3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.4199 160.02 0)
+			(at 269.0199 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,7 +6581,7 @@
 			)
 		)
 	)
-	(global_label "rgb_vdd_en"
+	(global_label "RGB_EN"
 		(shape input)
 		(at 256.54 152.4 0)
 		(fields_autoplaced yes)
@@ -6589,7 +6593,7 @@
 		)
 		(uuid "d442d494-27ad-49ef-a146-77465f888b6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.0478 152.4 0)
+			(at 266.7823 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
