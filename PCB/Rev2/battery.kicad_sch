@@ -1493,6 +1493,12 @@
 		(uuid "7b616038-9583-47de-9d61-ee8b13367a79")
 	)
 	(junction
+		(at 171.45 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83e3d6fe-6825-4b7e-bb96-77c1fe957acd")
+	)
+	(junction
 		(at 95.25 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1580,6 +1586,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 55.88) (xy 171.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13344aff-d5b1-4e87-8f8a-2225c580a778")
+	)
+	(wire
+		(pts
 			(xy 154.94 52.07) (xy 154.94 40.64)
 		)
 		(stroke
@@ -1660,16 +1676,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 55.88) (xy 161.29 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a35d1bb-2e06-4a2c-a911-c87974837dde")
-	)
-	(wire
-		(pts
 			(xy 154.94 25.4) (xy 154.94 33.02)
 		)
 		(stroke
@@ -1700,17 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 55.88) (xy 157.48 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d784779-a0a8-4724-9f8e-36958ccce6a1")
-	)
-	(wire
-		(pts
-			(xy 171.45 49.53) (xy 171.45 59.69)
+			(xy 171.45 49.53) (xy 171.45 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2050,6 +2046,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 43.18) (xy 161.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31f5315-6895-423d-850e-8a182c5dd315")
+	)
+	(wire
+		(pts
+			(xy 161.29 55.88) (xy 171.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e359fb36-3b35-4f1e-8ae0-0ae8b61762a1")
+	)
+	(wire
+		(pts
 			(xy 35.56 36.83) (xy 59.69 36.83)
 		)
 		(stroke
@@ -2057,16 +2073,6 @@
 			(type default)
 		)
 		(uuid "e35cf995-4914-4b42-8575-5f4ec0099d01")
-	)
-	(wire
-		(pts
-			(xy 161.29 43.18) (xy 161.29 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e368ecb9-b78e-4fcb-ae8b-583be750c47f")
 	)
 	(wire
 		(pts
@@ -2859,73 +2865,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 139.7 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cfbf36f-d6d3-436c-b214-fcc18709c2bb")
-		(property "Reference" "#PWR018"
-			(at 139.7 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 142.24 20.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 139.7 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbcd25ed-9205-4dda-a722-6042b53ed7da")
-		)
-		(instances
-			(project "PH60-SC_Rev2"
-				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 59.69 55.88 0)
 		(unit 1)
@@ -3419,6 +3358,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 139.7 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8f3160f-e3ad-49a1-a400-e64d91019a92")
+		(property "Reference" "#PWR018"
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 139.7 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 139.7 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "956541fb-ea42-473f-af48-5f2a3c9a2589")
+		)
+		(instances
+			(project "PH60-SC_Rev2"
+				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 157.48 113.03 0)
 		(unit 1)
@@ -3627,72 +3632,6 @@
 			(project "PH60-SC_Rev2"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 157.48 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4f1338d-faba-42b3-8cbe-8e2be68dd5f7")
-		(property "Reference" "#PWR023"
-			(at 157.48 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 157.48 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 157.48 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7824466c-aa86-4af5-bb4a-51dd4c5110e6")
-		)
-		(instances
-			(project "PH60-SC_Rev2"
-				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
