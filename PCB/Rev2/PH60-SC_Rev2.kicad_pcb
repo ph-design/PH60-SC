@@ -437,46 +437,6 @@
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "17584f6a-d1a6-445d-bc32-1136cf2ed11a")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b2bdaf1a-2e49-4da1-b408-0a57090fd730")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "15b1f116-67d1-4b05-804d-ecbb04321fbc")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "56e04cab-6af7-4750-9800-12e4d89c598b")
-		)
-		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
 			(stroke
@@ -1558,7 +1518,7 @@
 			(net 80 "col_5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "e059b33c-032d-45e6-b6b4-e2fd43a1d48d")
+			(uuid "aa268253-1639-4a3e-a3d2-f7484b51f193")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -1579,7 +1539,7 @@
 			(net 29 "Net-(D21-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "cec7ee66-eef5-4681-a38d-d34c5e0cd4dc")
+			(uuid "0a9d1a80-7a79-441d-a48c-94cb55c7f4d6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -1700,46 +1660,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "360019bd-7623-42c5-b2f0-2abaf4bfc596")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b8dc61ee-21a6-4d01-8dbf-7e0b6517d382")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "94c2b044-835a-4faf-858d-1fcb56ab3c8d")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "424023b0-d04d-422d-8948-689f5febad3d")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -2822,7 +2742,7 @@
 			(net 79 "col_4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "dcb54dad-9292-4dcb-83fa-e14fff4a7bd2")
+			(uuid "82474dcb-aeb2-42d4-b713-2ccaadabaced")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -2843,7 +2763,7 @@
 			(net 28 "Net-(D20-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "954b58a5-3256-4cc1-9e37-9703919808f4")
+			(uuid "1b859349-6d44-42e0-b912-b95fc0674ecc")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -2958,46 +2878,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1ba5b39b-e21c-4397-b78b-0c672a1cab1f")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e9e62059-3c8f-4b8b-872a-90d1bedb5cdf")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "94d6b21f-56b9-4333-89c0-c1ec34a856a7")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bc5aaa66-5ad6-4340-81d3-72eb6544fdb8")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -4080,7 +3960,7 @@
 			(net 79 "col_4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a52ae390-eb18-42a3-ad89-a105d23633bf")
+			(uuid "1ceba29b-9991-45df-a20e-d4fbf0894a02")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -4101,7 +3981,7 @@
 			(net 52 "Net-(D46-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "ab05ed4a-b6a4-4939-a7e4-cd8bbb9f42ad")
+			(uuid "1fcce7b2-20ce-45c8-97c7-6e7977ddc185")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -4203,46 +4083,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2e70f220-fdb2-419a-8b0d-ebb1c6069282")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "35b414e4-d2d4-4717-91d8-83523969eb43")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d140587b-d4e4-41f1-ab55-3a0d77c19aa3")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9ce8b70f-5893-4e05-888f-877dca2dd046")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -5325,7 +5165,7 @@
 			(net 78 "col_3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4cb8f8a9-3313-4ff5-9b01-13e3ee9d9c81")
+			(uuid "62525772-3cc7-4e81-b55c-61379d6268bd")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -5346,7 +5186,7 @@
 			(net 12 "Net-(D5-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0bd3e641-f145-44a1-adca-0fccd7096bbe")
+			(uuid "dec299a8-8e05-4fe1-b8a2-7dbfe2bc0a88")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -5448,46 +5288,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "00ef237a-c809-4a97-820a-12845d234e07")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "79ce4771-f974-4851-8ddf-bee63a09b346")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f8b19635-454c-41cb-b2ce-dacddda82865")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "afdd1190-d1da-47eb-98da-e6b07859b00f")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -6570,7 +6370,7 @@
 			(net 81 "col_6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "64927a89-ffd6-4de9-9d2d-9832016aeb4e")
+			(uuid "73f39163-cc60-48b5-8511-aa35e2949a3b")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -6591,7 +6391,7 @@
 			(net 15 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9058eaf3-28e5-44a3-8347-c62b38800c12")
+			(uuid "71070bbc-72aa-4ecf-bff0-01b25dcd02a1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -6708,46 +6508,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ad5a56cc-3404-44f0-a4df-02e4d9f728a1")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a1a7c182-b867-49af-98ec-263ab3c34e8a")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "440f7888-c109-43b1-9f01-d13f26024dce")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "30d483d2-7f2b-4494-a0d2-1186aba2895b")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -7830,7 +7590,7 @@
 			(net 86 "col_11")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "8b21d259-4a4d-471c-a271-7230ed152c0b")
+			(uuid "08bf4c9c-e19f-4d1b-8411-83be803cada5")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -7851,7 +7611,7 @@
 			(net 20 "Net-(D13-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "b9dae41f-6546-4b10-953d-7e98e9f5aaf3")
+			(uuid "d925d362-c199-4bda-b111-73b5fa685d07")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -7924,46 +7684,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7f6e5ce6-201a-4b47-9e33-3509ae6e861e")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "81145198-febb-4603-98c5-0ac46e61166f")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d34f0052-42dd-4159-9a42-afa6b00284c6")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "185c4135-79a3-48c1-9e6d-0e3e8bc83de7")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -9057,7 +8777,7 @@
 			(net 86 "col_11")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f051a78e-401c-4faf-916b-ede24b87d4e6")
+			(uuid "a1f65235-3525-4d55-9ac6-8ab3b59b8251")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -9078,7 +8798,7 @@
 			(net 67 "Net-(D60-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0b307633-cf56-47dc-ae34-e166d0dcfe4f")
+			(uuid "87da7daa-5855-4dc3-8d23-0999ad78f95c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -9191,46 +8911,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f4414db5-7a9a-4b2c-85a8-f951a117400c")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "90f1500d-2160-45f4-9584-7c7c66450841")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "da461752-4a20-439d-bc8b-93245559ac88")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4849f9ea-2919-462e-b2d9-3f22b6a621c0")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -10313,7 +9993,7 @@
 			(net 77 "col_2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "11ae5a84-b581-485f-bff8-7e8fa0dab6e3")
+			(uuid "2cc0f670-f5db-4750-9381-9afef973715a")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -10334,7 +10014,7 @@
 			(net 11 "Net-(D4-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d1b76ed2-dec0-45f4-ab72-6262807b6a7a")
+			(uuid "a8a3494b-1a49-450f-a0f2-66210c10390a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -10449,46 +10129,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "68f6ea20-7673-418b-8b7d-5836d732fcad")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e8282e91-744d-4995-9811-4138589a93b4")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dd495ca7-1105-4b12-b00f-73b1a46fa891")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "803ace4d-f0de-49e8-934c-7ee9091ecd47")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -11571,7 +11211,7 @@
 			(net 75 "col_0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "7124fbd6-0b45-4453-b6a4-6d73f3086326")
+			(uuid "0308f55b-33cd-4c6e-a0d3-9a2e01351785")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -11592,7 +11232,7 @@
 			(net 24 "Net-(D16-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9b0f56db-80cb-4f0c-babc-28cd25d39a37")
+			(uuid "775d9f08-11e5-44de-a8c4-587300da3991")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -11715,46 +11355,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ec98f0e4-37ef-4ed7-854a-4769e7bcc934")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b26ba049-e1d4-49b5-a09e-40ebf69c126b")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "aa8a381d-2cd2-4051-ba5f-ebac6835fd8a")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d12e4e00-a286-461d-9f7c-f4edab4df676")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -12837,7 +12437,7 @@
 			(net 85 "col_10")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f4c2a685-1d9b-44b1-b761-e77926b47b5a")
+			(uuid "18d7612f-5f58-4adc-aa05-d269dd9114b7")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -12858,7 +12458,7 @@
 			(net 34 "Net-(D26-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "21ea584d-4397-4cc7-8358-5e317f957b95")
+			(uuid "482ed05a-5711-4014-9bdf-515356a673f6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -12931,46 +12531,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6239abb8-750b-4ad6-b03d-3fe1dcef8436")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f0ab719d-8133-4cbb-8a7b-b790fd59c32d")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "348413e6-9428-403a-853e-0020fe46ad4b")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e60bcf4b-d950-486d-99a3-a5439ae34c9d")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -14064,7 +13624,7 @@
 			(net 75 "col_0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6afc31c4-f418-4948-a484-3431c6596816")
+			(uuid "90fb4bdc-dc28-4eb2-a417-c2a8b18fc296")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -14085,7 +13645,7 @@
 			(net 9 "Net-(D2-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "75488696-85d7-4e7d-a71d-4ebdafe68fa6")
+			(uuid "aacfa94e-cef1-4f8d-a300-e92b03c19bfe")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -14199,46 +13759,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "599b7b7b-8273-433d-acec-977f206eba70")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "34c77f44-8584-4a3d-a907-c46989122588")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dca748d4-0c3e-4e66-ba7b-ad9123902b9c")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "31002f91-93dc-4a77-8b8b-bf563d873bf3")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -15321,7 +14841,7 @@
 			(net 83 "col_8")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6572b681-a843-4170-8015-0e3b2996f400")
+			(uuid "f362fe67-9504-4d79-b264-fa2c768e2e2b")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -15342,7 +14862,7 @@
 			(net 17 "Net-(D10-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "fd36a8d3-988e-4d31-9752-6f2e366c6e55")
+			(uuid "6476ad21-8f9e-49d4-8574-69dcf35e9728")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -15469,46 +14989,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0ea42eda-ed6d-4761-b1b0-97fb0e94b218")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3654b8c6-05f4-416f-9393-9258e86ea91c")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "33e80c01-4719-49b3-8a3e-9330ec424d86")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8b2b99d9-ad22-43c6-970c-87d3f51924a6")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -16591,7 +16071,7 @@
 			(net 83 "col_8")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "18ae15cd-9ac5-47cd-8f75-a9cb0072ac56")
+			(uuid "9b2c3b81-e5dd-4b5a-b8de-67dbf3fa7b56")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -16612,7 +16092,7 @@
 			(net 32 "Net-(D24-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "66c1f623-7e57-4002-9207-6f6d5b5c1e07")
+			(uuid "20215017-f4fc-4dba-830b-c1715e9fbaf7")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -16727,46 +16207,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fd6823af-a224-4e9a-9ac5-34e584d4b9f5")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4639a947-4abf-4230-870d-1b6642865720")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "737ec046-1561-4ecc-ac9d-5cb32aba70ec")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6af06687-4dee-4879-ad37-1674a4c51ec1")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -17849,7 +17289,7 @@
 			(net 75 "col_0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4db442fa-e4af-4226-9a04-fc020751e5b7")
+			(uuid "662322cc-37d3-43c7-a077-a5028f4f9196")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -17870,7 +17310,7 @@
 			(net 100 "Net-(D55-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "59595413-e4fc-42c0-89de-2def7571cafd")
+			(uuid "82189d92-9c7f-4e19-9b81-d3f704dd30fd")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -17943,46 +17383,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e2011016-8260-480a-b2c4-ed4b45f28ac0")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "59b0a8cf-2540-4b5b-95be-13ac27193724")
-		)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "aa0ef5d4-05d4-4a9c-a32a-e7b60ebac8ec")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bf579a98-2e41-44f1-9647-ceb8b8d51bfe")
-		)
 		(fp_line
 			(start 1.268 -8.346)
 			(end 1.671 -8.266)
@@ -19076,7 +18476,7 @@
 			(net 88 "col_13")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "e46ab4ab-b625-4a5f-b71f-90bc440ef4af")
+			(uuid "24f8bf5f-a3a7-4ef2-bcd6-1e913123b4e3")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 90)
@@ -19097,7 +18497,7 @@
 			(net 22 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "a20f0d50-216e-424c-b299-d6fbb44debf7")
+			(uuid "d61488b6-3739-4de6-b635-8fa716787454")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -19170,46 +18570,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b45ffdb0-8a69-449a-bb50-7f850db09270")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a3528a55-622c-4cb3-9ad6-4ee85006515a")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3dfd2c56-f42f-491c-b43e-1c3f6c9f43c3")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1dea20bb-c23b-4970-beda-6d632ea260da")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -20303,7 +19663,7 @@
 			(net 85 "col_10")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0f5dcfad-0c79-4028-aea0-bef727f8fa7c")
+			(uuid "8fdb897e-40ff-462b-a482-500652c0c60b")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -20324,7 +19684,7 @@
 			(net 64 "Net-(D59-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d51c6dc3-5c2c-40a5-a6c2-e59ed0c85a38")
+			(uuid "3a80f2ab-0ec6-4d5f-ae8b-12e4d40a3bf5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -20445,46 +19805,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "96287bff-cb68-4e38-9112-bb659dab51f6")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "33adb100-55e1-4837-93af-ff964b86f8d1")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d02e115a-2397-4452-a3ed-242289eccdfd")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9bbe1fb6-445e-43b7-9406-27ebe7e4b321")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -21567,7 +20887,7 @@
 			(net 76 "col_1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "342bbecd-7ff5-4262-94a6-d90263c8ffdf")
+			(uuid "b2fa0df7-0261-4b30-9fcd-73bb51c455a7")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -21588,7 +20908,7 @@
 			(net 25 "Net-(D17-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "45ed761b-1996-4960-99ab-6f6bf0d07a9b")
+			(uuid "881697ff-1a60-45b0-a407-5040562cb103")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -21705,46 +21025,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ed88f757-9a35-498a-a032-880e85d55acc")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e1d440b4-8761-44a1-a638-ac0993f2a66c")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6bb62ce0-ddbf-4d09-a1ab-d8c58e57aa10")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a12a72ee-5297-4c85-baa2-5ac599d85b3e")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -22827,7 +22107,7 @@
 			(net 84 "col_9")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d3534a2b-b244-490b-a12a-0390bdfc2e57")
+			(uuid "7ae67dea-bdd9-43ef-967c-1bf387313faa")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -22848,7 +22128,7 @@
 			(net 33 "Net-(D25-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c7b9ca3b-7215-47dc-bd97-201d04b7ee54")
+			(uuid "40c8d24b-e0de-4bc6-9eec-5baf5fb16e88")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -22967,46 +22247,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7dae1689-2575-46c8-8f2e-24b5adbd8cf0")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f582b23e-fa48-4e3d-b65b-63b222d99246")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f6eaaf28-ac4d-4230-978c-9ddfd3390207")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9cecb041-4ce6-42a1-9039-fa0df0b6b6ce")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -24089,7 +23329,7 @@
 			(net 77 "col_2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "923c91fa-058c-43ca-b0c4-7cb600e0d9b6")
+			(uuid "2eda229c-b9aa-4d71-861d-2e5a985ecb7b")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -24110,7 +23350,7 @@
 			(net 41 "Net-(D32-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "ba965371-5dc7-48ad-8958-26310c5e4d05")
+			(uuid "7188edfb-fbb6-4b6f-b098-5708e18dc720")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -24239,46 +23479,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "73052212-cd38-46a7-95f6-293f5fd00843")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cfc8148c-ff67-42de-acb2-4f79ec094385")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7c7b64de-c477-4263-9dc1-05a7b8456f95")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3cd23865-9739-4439-b58c-1ebef1f9a657")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -25361,7 +24561,7 @@
 			(net 79 "col_4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "079e16f2-d8c6-4a12-8805-1789a95cdbb5")
+			(uuid "f30dc49f-dca2-496f-b424-861e450235d0")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -25382,7 +24582,7 @@
 			(net 43 "Net-(D34-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "b9ed2019-36b0-4783-a1bd-1a28e4a02c45")
+			(uuid "8db484a1-66e3-4588-9724-e7cc9492069c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -25501,46 +24701,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9d07f354-4c69-4666-b016-dc8ac99e7e35")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3d3ac682-724e-4252-b454-18856e2b781d")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "138d948a-c38f-4c45-9093-f229da2e5ae6")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "af4c5989-b075-4234-879f-1212c6588102")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -26623,7 +25783,7 @@
 			(net 80 "col_5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a3e76c3e-0dfa-40d7-9980-47d83f56dcde")
+			(uuid "30ff5162-488b-4d2b-8365-a102377276f7")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -26644,7 +25804,7 @@
 			(net 44 "Net-(D35-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e0b5ca75-4f50-4735-9606-00a2950ccbad")
+			(uuid "198af560-1174-4c33-aa2b-c5d93ff09e9e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -26753,46 +25913,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4045b509-c990-4373-ade7-c5d4341d5fbb")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9663c203-abbc-4af2-8224-13c1babc7189")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2aa0ebcf-1818-4d71-bdec-349d1598c584")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "964d31ea-3043-4057-baa2-2159344d16ce")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -27875,7 +26995,7 @@
 			(net 78 "col_3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "203a2958-cb51-453d-b3d7-2a7236415f87")
+			(uuid "cb29df73-908c-4b06-95e2-c7faa1ce6824")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -27896,7 +27016,7 @@
 			(net 51 "Net-(D45-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7effc3be-4ed8-4758-8b40-8f2fb3321ee4")
+			(uuid "366c40ed-d174-4cb3-a6ba-b41c2ba659b4")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -28025,46 +27145,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d0c0e9e0-b7bd-4de7-9864-6fb9179ff7c0")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e3db5225-d519-4f37-80fc-6043c6664685")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "eae51243-ada4-41dd-ab0e-b2dffb090f24")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c43c8aad-0dda-4f1c-b94f-bf3c5feab4f8")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -29147,7 +28227,7 @@
 			(net 82 "col_7")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "feda8dc6-8ab2-48ec-a521-74e47bf29b44")
+			(uuid "a8be3301-3624-44aa-b3b5-006c42e498ce")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -29168,7 +28248,7 @@
 			(net 55 "Net-(D49-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "6f42827c-8769-4f9f-a80c-29bdcf0bb341")
+			(uuid "707a8f37-d9fc-4466-bd6f-95360df46973")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -29293,46 +28373,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "63ab1e09-1ce0-4a59-8983-37486ee40292")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b4e34173-bb59-4c83-a862-a37b1151fb07")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7202be1d-497f-445c-b438-468c0b3380b8")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4142158b-90df-4f05-8a38-65c4883e9fc7")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -30415,7 +29455,7 @@
 			(net 82 "col_7")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "bf97ad8d-3d46-41c3-80dc-78fc739d1693")
+			(uuid "7d6a78d4-bd82-417d-8fe3-4fcece7b0dd0")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -30436,7 +29476,7 @@
 			(net 31 "Net-(D23-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c5a75e24-d0eb-4b0e-ac75-33877be78f39")
+			(uuid "7d742794-c8ad-4eb2-89f9-244995834e3c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -30553,46 +29593,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4dbae444-c961-40e8-b3aa-72675edfef95")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5a6d8dec-4024-4ea4-ad23-72a7143884a3")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9f855a11-7636-4abc-8676-bb6c669c62d6")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "41d33a4f-bb81-4ed5-be28-1a36643c5913")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -31675,7 +30675,7 @@
 			(net 87 "col_12")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "17311204-1307-4b81-915d-bac97a9b1363")
+			(uuid "9ad813ec-5125-4d7b-a24a-f275ba566b12")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -31696,7 +30696,7 @@
 			(net 36 "Net-(D28-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d4b15e36-e31e-495a-9e26-8628793bec85")
+			(uuid "d926d08f-bed7-4c19-a995-dbfa8d757b42")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -31817,46 +30817,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "89def180-ab1b-419d-9d2e-9363fc260940")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ec2f41c3-b00b-4688-ba10-5d011ac4061c")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6689f243-2e87-4653-a04f-95f58eb91aa4")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ee4f9fa4-4fbd-4381-89d2-4f061200a3d1")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -32939,7 +31899,7 @@
 			(net 76 "col_1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "cd749540-8337-4adc-b5d0-5c4aa7ddd40c")
+			(uuid "b6e893e4-667a-4444-a9a5-c5f3b06d5c4e")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -32960,7 +31920,7 @@
 			(net 128 "Net-(D56-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "1f71ca8c-47d9-40e6-a90e-202f660e56f5")
+			(uuid "1154f563-6fe2-400a-9a1f-7c90caa9ef1c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -33082,46 +32042,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8e482daa-7761-490d-8916-9d23c5c82c8d")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e667a516-bbb4-400e-b431-000bd212a5e2")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6a94707a-ae99-473b-a081-df8b1b67558e")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "043231b6-7383-4664-bbba-94405206b70e")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -34204,7 +33124,7 @@
 			(net 82 "col_7")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "981d4669-0c3d-4c0d-9913-173cf6a669ef")
+			(uuid "9f66a813-731b-4bc6-ab52-656ccac288f0")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -34225,7 +33145,7 @@
 			(net 16 "Net-(D9-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f9537dbe-00df-4aee-8593-b6ed94d2e751")
+			(uuid "d4840351-5510-4d57-8207-89676dd82ef1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -34298,46 +33218,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "79e4539b-df41-43c1-8d6e-c3556cdede6e")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c6e920aa-9e8d-4324-af94-22620b017400")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2268bba0-1861-4328-8235-39b45f586a63")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "329268ec-8490-4113-843b-4d27a0cd33fd")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -35431,7 +34311,7 @@
 			(net 87 "col_12")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "21898d5e-3e38-49dc-8172-5b9846b55071")
+			(uuid "730a8313-14f2-4fd4-a3b6-02620a4d8f2f")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -35452,7 +34332,7 @@
 			(net 66 "Net-(D61-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "5eb31346-7076-4379-890d-d0b04707234a")
+			(uuid "48625bb6-2262-4148-b368-214c27c34c77")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -35571,46 +34451,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "84238c69-80b6-4390-b657-7904cb5ed0cc")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "61f6f7f1-f72b-40a8-a88d-67069b5ae670")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6365d525-27dc-4f1f-aac4-c1e8d6d3971b")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6a50cfa1-4c78-4382-a128-a3eefa2a2848")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -36693,7 +35533,7 @@
 			(net 83 "col_8")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f692eb67-1c5d-45b0-bfb6-3c9c3fae22cb")
+			(uuid "59246e54-6305-4b45-9a94-882f250c1d65")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -36714,7 +35554,7 @@
 			(net 47 "Net-(D38-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "6866d633-8ec6-48e9-b03f-28b6e648b0c7")
+			(uuid "d964cb41-cfce-489e-b5cf-00d57a548cde")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -36831,46 +35671,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3253506b-7f06-4645-8cd3-1f9d914e5f59")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3c8fd15c-ec5c-4b1a-9f13-7374a85cd059")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "14cfa6c0-509a-43dc-aff7-318733c3a49d")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1f572fd8-d9b7-4a1e-9e33-527efd77c253")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -37953,7 +36753,7 @@
 			(net 81 "col_6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d078d165-802c-4a76-8a59-ab377cdfe200")
+			(uuid "d78d7370-e9c2-4aea-9f92-f736b1dfdbb4")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -37974,7 +36774,7 @@
 			(net 30 "Net-(D22-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "ff9fcb2e-a2c6-45cc-b19f-50a880c160ed")
+			(uuid "d41aa07e-8934-4b32-9e5c-cfd08e3a6ac2")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -38083,46 +36883,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "af60ca44-571b-4264-83dc-0b87044dce45")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f4eaecb0-e6c2-48b0-8f56-b8f91305a4e5")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f19ac21d-0f35-4a21-9569-e9faf0c00d46")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "68adfa18-4f80-4679-a4a5-f30ab814f8d6")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -39205,7 +37965,7 @@
 			(net 85 "col_10")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a0b02229-f0ea-47d1-b823-6bd15a7f46ae")
+			(uuid "cc3df5b9-77b5-47a3-a507-9253c88167df")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -39226,7 +37986,7 @@
 			(net 19 "Net-(D12-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c115729f-40d2-4842-9115-e92c236b35e3")
+			(uuid "09c787a7-fc67-43a9-ab87-ca3a76e4bf3c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -39351,46 +38111,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "58011619-14f1-49e2-a53e-64a39f982b18")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b2ce6f2f-acbf-4403-8cae-89daf76b2bb3")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6e7a651d-984c-4bfc-89ce-cb1a067d5e3e")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8874f03a-55bf-4b59-8362-b02b7147454a")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -40473,7 +39193,7 @@
 			(net 84 "col_9")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "32f0bb20-7099-449f-92e4-33068fb0a8f1")
+			(uuid "0e6d1b85-b5e6-40e8-96af-59ff37887e99")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -40494,7 +39214,7 @@
 			(net 57 "Net-(D51-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "11f5feb5-2a0e-44af-99bd-e6ecfdad8976")
+			(uuid "f966a611-4b67-4f0f-a638-0f2319479d82")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -40623,46 +39343,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "79f4a7c1-0f7b-458d-9000-0bb9f2b63984")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "44b7bf6a-03b8-426c-9d12-a4395ddac9c4")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "051cfbdc-b1a4-47c0-94f8-fdc33287096c")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fc8bbd7d-9595-4695-9b27-e02e8d7a6389")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -41745,7 +40425,7 @@
 			(net 76 "col_1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f9fc3128-28fd-4615-923f-0825de409121")
+			(uuid "d2247ed6-e8bb-4f99-a2f4-e0866822d2e3")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -41766,7 +40446,7 @@
 			(net 40 "Net-(D31-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f0335167-2e1c-43b5-b9ef-2ce6cecd0493")
+			(uuid "8fa06acd-5e6c-4ba1-8433-b8420c1ae0fb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -41905,46 +40585,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "eb8376d5-6a04-435f-abac-bf1a0c34402c")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a8f9801c-864d-428c-8074-358b2013ae38")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "418bf04f-3aa8-4842-bda3-d7aeb0654ff5")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6da5c4b2-734a-4181-a070-1bb1f7f60b18")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -43027,7 +41667,7 @@
 			(net 84 "col_9")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "8097ac66-3179-4ca8-9d3c-82b21d1b6267")
+			(uuid "74caa4b2-8c2a-41b2-b351-12f005498fb8")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -43048,7 +41688,7 @@
 			(net 48 "Net-(D39-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7a5a451f-2645-4de8-a54d-74b101b06603")
+			(uuid "72f31884-1250-4c08-aa10-e8ad3f5880d6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -43173,46 +41813,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ae9c4ff4-c4dc-4573-911d-9b310dfda3ad")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "09785662-35d6-4398-8e63-33f158872d91")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cac39289-712c-497a-88e5-10a97ab9ce32")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "307bf814-0bc4-4b4f-8956-6f28a600c03a")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -44295,7 +42895,7 @@
 			(net 81 "col_6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "64587bcf-2143-4bee-bca0-735402b86f6c")
+			(uuid "1182db4a-fc69-4488-8f78-e5da0d733841")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -44316,7 +42916,7 @@
 			(net 45 "Net-(D36-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0dbcc553-5e79-4513-a569-68de85c0df6f")
+			(uuid "775e96c2-6084-45ac-a49f-dd845dca83ea")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -44389,46 +42989,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d69b71cd-e99e-44cf-94f4-c77830f35acd")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c6620955-e1dc-4721-a3fd-76ce97f3ccc8")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ffd60919-f184-42de-b18b-a22389732869")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8c9ac823-f942-42d4-ac71-304c3146b501")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -45522,7 +44082,7 @@
 			(net 88 "col_13")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ab0cbaa9-f2ae-48f2-b3d4-34f146a30b3b")
+			(uuid "3e695f09-fb9c-4099-8447-638458494ba9")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -45543,7 +44103,7 @@
 			(net 37 "Net-(D29-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f73b60e7-445b-481b-9b58-0795da8c4c24")
+			(uuid "bcedd0ae-7dbf-4f7c-ad97-0bf8ef8945e3")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -45674,46 +44234,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "59dd94c9-32ad-4cbe-9313-b5740aa13b00")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7a1c809e-41f6-47ee-829c-b5619be9f68b")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9c5c339a-e50c-4243-ae12-23fbb87c3963")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2894382b-6d58-4b5c-9ff6-c1f892fcd5dc")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -46796,7 +45316,7 @@
 			(net 85 "col_10")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9e0fea72-8319-4b10-9e82-e4622da7b457")
+			(uuid "8ff2facd-8078-4dc2-a000-8f8ad6bd946a")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -46817,7 +45337,7 @@
 			(net 49 "Net-(D40-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "042f49fa-0379-4d6c-addc-10207b375d59")
+			(uuid "106953dc-2724-4769-8f42-11b7e37916a2")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -46938,46 +45458,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4f362d16-74b2-4c61-8d50-6b0aafeb127c")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6ee39367-c93c-4ddc-9873-d64df7ad820e")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "779c4163-9bb9-42e7-915c-ee047de18440")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c8bba4a0-6b08-4cf7-b72a-40d6daf33017")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -48060,7 +46540,7 @@
 			(net 80 "col_5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b765cbb7-2f63-443a-83ab-8d541cd55699")
+			(uuid "26869f58-a101-4e09-97be-85b52c5062ef")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -48081,7 +46561,7 @@
 			(net 53 "Net-(D47-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "a37e77f5-0edb-4036-bba3-f3b9c522c62c")
+			(uuid "4b512571-f2ba-4add-a48e-044abca17d44")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -48210,46 +46690,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cccec37e-3902-4f95-9753-7a9423c65c1a")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2bcef541-3659-402f-a928-cc361e536fcf")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c6a8fe4d-fbfc-4063-bb95-d1c2af36ce64")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c749d39a-93bc-4590-9d12-6a420a8abbf5")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -49332,7 +47772,7 @@
 			(net 78 "col_3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "636298f6-c8b5-4683-a680-703d99b1672d")
+			(uuid "403dcc49-3a2f-4b00-bdf9-353bf208d617")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -49353,7 +47793,7 @@
 			(net 27 "Net-(D19-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e2dd60a8-a18a-4fc4-8473-77125e5759e4")
+			(uuid "7d8570b0-0086-4e11-ad97-cc32be517a4c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -49426,46 +47866,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "48d82939-d332-4da2-8b00-81a1f1c5f6e3")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2d270204-6e00-4b73-9882-fbecd724ec12")
-		)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5d677fd5-4561-4685-98b5-1ee1e1a4e453")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2d5cd2c1-a35d-4e7f-8974-6dfafc44c534")
-		)
 		(fp_line
 			(start 1.268 -8.346)
 			(end 1.671 -8.266)
@@ -50559,7 +48959,7 @@
 			(net 87 "col_12")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "c78ab121-f6da-4541-b2e7-b0771c23536b")
+			(uuid "82e6f436-fd96-407a-9930-a348e504568b")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 90)
@@ -50580,7 +48980,7 @@
 			(net 126 "Net-(D42-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "81ecf18b-d1e6-4ce3-8e68-060b91f889d9")
+			(uuid "9f7ca2e6-b161-4af9-9a39-727715917314")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -50699,46 +49099,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ae062d35-b04c-4eaf-88e3-5c5b2a4361b5")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "aa57e14f-d7d2-4a2e-b2a5-062187edd62f")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3bb8a22c-a9d0-4f3f-a641-0edea8129c6f")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "82b46b78-64e0-4907-876f-94005e2bbcb6")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -51821,7 +50181,7 @@
 			(net 77 "col_2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "c49e1482-88d1-489d-be7b-1bae9501017f")
+			(uuid "e8a0ca3e-4ee9-4293-a4fe-bf4dccf8d29b")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -51842,7 +50202,7 @@
 			(net 127 "Net-(D44-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "8982b5a9-aee0-4bbc-967f-0153a8780b18")
+			(uuid "fedfc5f6-6950-4ef5-9442-73f8488133c9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -51961,46 +50321,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "01e1152a-897a-493a-a1df-c555ea44b064")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c0419ed9-bc37-49b9-8ed0-3a226ef27917")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1057b490-a816-4ea3-9575-f721a3db3e39")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bd443919-f9a5-4050-b26c-564b8bab9bb9")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -53083,7 +51403,7 @@
 			(net 87 "col_12")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d76c08de-bd91-445e-87a7-e359d811133f")
+			(uuid "df48c857-85e7-4008-b7b8-2b6dff94c01e")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -53104,7 +51424,7 @@
 			(net 21 "Net-(D14-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e460d910-5123-4fee-9fea-8c3ba3858599")
+			(uuid "6b4ec25b-37a3-478a-92c4-e76c183a7097")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -53507,46 +51827,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0233d0f1-32e1-4b40-86b1-bb441d4ed23d")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e5df9eed-50d6-493e-8060-dc302f6398b6")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "35ca1cf3-dda4-4ddf-a6f2-34812c8fef78")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2e81cda2-dd5b-4c08-a23e-ff7eb61dff0c")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -54629,7 +52909,7 @@
 			(net 86 "col_11")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f17df241-bd60-4a96-bc24-0231b444f73c")
+			(uuid "09ff4c54-0c4a-4460-8373-4f0bd7e90d6f")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -54650,7 +52930,7 @@
 			(net 35 "Net-(D27-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0249d74f-3f00-4bdc-8583-951361e164b1")
+			(uuid "5c907deb-2e28-435c-927b-1e43ae37b52a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -54758,46 +53038,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ca0a0239-a2ad-4191-8bc9-c0d47c4ad3c8")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "560e1166-1e1a-489f-8649-f832722e2003")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "02032d5c-a1ea-4ba3-b097-790727aef5fd")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "47edb0bc-a616-4493-bc5d-d5d53f48e38c")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -55880,7 +54120,7 @@
 			(net 79 "col_4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3ebfbdd5-0c12-4f8e-9f64-bde2a17b5cba")
+			(uuid "a7a208df-f74b-4fe4-87a4-876dd3b34c61")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -55901,7 +54141,7 @@
 			(net 13 "Net-(D6-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0f9f12e1-8317-495b-85a7-58a5724a6f62")
+			(uuid "12d56389-20b6-4edd-be82-0d2de6ac39a3")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -56010,46 +54250,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6846271c-30a7-4607-b9ec-2a812c5682a9")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4869fef4-99fd-4257-9327-512d5610479f")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9259b1e6-a316-4193-bda7-317267ec4112")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "47df8886-7f50-4502-bd77-54e9adbab045")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -57132,7 +55332,7 @@
 			(net 77 "col_2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f83a0ac3-0950-45dc-be1b-e012661daa77")
+			(uuid "c4dc1eba-045c-45ef-bbb0-ff0c6d6f8a48")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -57153,7 +55353,7 @@
 			(net 26 "Net-(D18-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "417bda4c-224a-4eb3-98e3-e00b8cbeade4")
+			(uuid "609d63d2-84b9-47a6-87e4-0b8c3b3b3f74")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -57280,46 +55480,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bf792eba-a2c9-4221-9705-6d77928785c5")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4fe6ab4b-571c-47cb-8292-102b6d17ccfd")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "28b5a64b-94b7-4ec2-bb80-5db1faa8e229")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "41c4c7a1-fcb3-475a-bc73-95abe7be88ed")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -58402,7 +56562,7 @@
 			(net 78 "col_3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "58b0309c-2344-4e5c-9e46-0d0ee310e8dc")
+			(uuid "f60c77dd-0a6c-4f5b-b9ce-8e059989c83e")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -58423,7 +56583,7 @@
 			(net 42 "Net-(D33-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "47918e1d-d178-4b4d-a524-058d9748637b")
+			(uuid "d068b6ca-ab97-4d54-8dc2-f9e0a8c16e21")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -58496,46 +56656,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "785a18ae-9820-4460-bbf9-062d0cbcfb8e")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ba040038-fe6d-45ac-b25a-fe48ac402448")
-		)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7981ff73-123a-426e-bc56-96b5cf716fe5")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6a4b4ab4-0d26-4ad4-8164-152d26db3d52")
-		)
 		(fp_line
 			(start 1.268 -8.346)
 			(end 1.671 -8.266)
@@ -59629,7 +57749,7 @@
 			(net 75 "col_0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d4266dda-1334-41b9-bf81-98458568b4d6")
+			(uuid "d80c128d-8dcb-40ed-baf1-d65a1e166dd8")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 90)
@@ -59650,7 +57770,7 @@
 			(net 60 "Net-(D43-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "70158f81-2503-4a81-ae37-2fe1c2814ef8")
+			(uuid "03d52390-6cdb-4e20-b8fc-7b7155d5d848")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -59781,46 +57901,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3c0b7380-f685-4223-9619-2f0b86c526d1")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f9d928a4-f3af-4eca-91f8-2321aa28f518")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0277299e-5c1c-46d9-ad15-6ca087c7a769")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6ca259c0-8374-44d0-920e-9c230227b6fb")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -60903,7 +58983,7 @@
 			(net 82 "col_7")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "165bd946-4e76-48bb-aebf-4ea683b57de2")
+			(uuid "7af43680-e7ad-4434-b918-c216ced67e3f")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -60924,7 +59004,7 @@
 			(net 46 "Net-(D37-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c07ed47e-31f2-4425-8ab2-942cbf1546b2")
+			(uuid "ec33c13c-27f9-47f3-b96c-8fd70f1b6de8")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -61033,46 +59113,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "61d9f181-2ab3-49bf-a86f-5602b259d1f3")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4c255ddc-ed4f-4296-a45b-51131ad0801c")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2cf7c464-e7b2-4a03-84f3-c5cba0fad937")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7c1e8d57-7281-483a-ae0b-0fc9a83146b6")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -62155,7 +60195,7 @@
 			(net 81 "col_6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "494145cc-6776-4488-9496-26da809c89c5")
+			(uuid "ca2777e9-3b2e-4b3b-aae6-545ea7d9304e")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -62176,7 +60216,7 @@
 			(net 54 "Net-(D48-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "31be243b-17e2-41ee-b462-ffb4ac82a195")
+			(uuid "bcf10dd7-375e-44de-bf5d-7d2e152ca918")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -62291,46 +60331,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e8e0e4fd-a80d-4e3c-b574-4279b0272f55")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8741a988-0c02-448f-8771-e4ef0994310a")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "96c53297-8191-47e0-9ba3-33a70ccd26cb")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e2358b25-fe39-470a-80ac-591eade72bcd")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -63413,7 +61413,7 @@
 			(net 81 "col_6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4298704e-f1a4-47f0-82b0-032d6f60808e")
+			(uuid "34402e48-b22c-4c3d-9df9-ab1101a34c29")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -63434,7 +61434,7 @@
 			(net 63 "Net-(D58-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "fe8a5c44-5c50-49d0-be70-f3efac995024")
+			(uuid "ca12623e-9236-43f4-862b-1a96188f73b6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -63825,46 +61825,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "47922e28-83dd-4ace-a1d3-6dbe4f7e389a")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c3b1e697-5e87-454d-b235-aab1c4e465d6")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cd7dbcc9-dac9-4b11-8b41-e4a140e24bf9")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cff7db1c-2bee-446b-bc64-42dc1b65264c")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -64947,7 +62907,7 @@
 			(net 85 "col_10")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "2a60810c-6070-4a42-b23f-59275531ad36")
+			(uuid "7f14dbe2-d39d-4707-aa93-adc83c5f612d")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -64968,7 +62928,7 @@
 			(net 58 "Net-(D52-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "b4215e2d-c82a-46eb-89e9-868ea15d9d9d")
+			(uuid "89a32c54-9717-464f-af4f-10af7be4a781")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -65087,46 +63047,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "575e76b5-19c6-4a8d-9191-138f2dde9957")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "36392512-c6a3-4c7a-8884-fa9ded8550af")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "61c62d34-3f43-4e11-8d1c-51930434b777")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dc72d529-2715-494c-9689-4d45d871db76")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -66209,7 +64129,7 @@
 			(net 84 "col_9")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "2b185f5b-7d9a-4338-9394-4bf36712ac2f")
+			(uuid "428fa85f-219f-4cff-a15a-ba961539ea3d")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -66230,7 +64150,7 @@
 			(net 18 "Net-(D11-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "1170708b-317d-401d-8388-e420fc5d0f6b")
+			(uuid "a7c496e5-2e3c-4e80-82b9-564660a91126")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -66357,46 +64277,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7fe1b5bc-e497-465c-9f52-316d54beb3f7")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cdffc008-c8d1-4e42-a584-acd90ab3731a")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "78eb7140-0698-4fd3-9fc0-d1ae33cf8fac")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b7ed9c61-5384-472d-a52b-2655c7cc1819")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -67479,7 +65359,7 @@
 			(net 77 "col_2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ed504f66-cd84-4691-8e4a-cbefeb3f1b00")
+			(uuid "6c122d80-f19d-4744-b1a9-16557a86dbf3")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -67500,7 +65380,7 @@
 			(net 61 "Net-(D57-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "17a15d76-e039-4d5f-a22c-9fd716b1e540")
+			(uuid "ba484110-2b3a-40a4-b3ac-8e11261f4f5e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -67573,46 +65453,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7b8919bf-e017-4357-8a84-e7c588785b70")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a402625c-e223-4438-bf00-7498928453bc")
-		)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e8b75c3c-3390-4b05-8ec9-3745509d9a92")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b4b2ecfc-2c53-4e8a-8453-422734cbbccc")
-		)
 		(fp_line
 			(start 1.268 -8.346)
 			(end 1.671 -8.266)
@@ -68706,7 +66546,7 @@
 			(net 87 "col_12")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f2600d45-5005-4120-ae2a-41d436068dca")
+			(uuid "110d3153-2b6f-408d-a0cd-8af56d036445")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 90)
@@ -68727,7 +66567,7 @@
 			(net 65 "Net-(D54-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "37155e3b-fd6a-458e-ae1f-12a976aad504")
+			(uuid "bf09c6a4-0e61-4a1f-94ec-78cbd9647da4")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -68850,46 +66690,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "de872dd1-cc3d-4a19-b60e-4bc77fc90d3a")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f15ef54c-950b-454b-8b9c-0d6f06bff364")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "555a1b30-9252-4913-8f0e-79f89645b69a")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f1c8e84a-ff55-4b37-aeeb-310a18093631")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -69972,7 +67772,7 @@
 			(net 86 "col_11")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "c5442fbf-e1f3-453c-b23d-4bddcb04aaf3")
+			(uuid "cf70fd5e-5145-40a2-851e-0e3c87bc5779")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -69993,7 +67793,7 @@
 			(net 59 "Net-(D53-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "3abbd45e-23f8-4248-bc6a-7bc8257a6b99")
+			(uuid "4e400812-e1d9-4647-8193-88f9c5d47397")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -70114,46 +67914,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "67c029ee-9d26-4b7e-958f-d0465f2eef3a")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a09187c3-3116-4738-8d3a-366c26e26f26")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "55ec8571-811c-44dc-b55c-5e95c403985c")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "32a34d60-49be-4a6e-b4f8-6c8a9d0e3f36")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -71236,7 +68996,7 @@
 			(net 83 "col_8")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "ecc4e920-63e8-46ed-bb13-49b34c81d9d9")
+			(uuid "d5cf014a-4bc1-4f31-a38c-1102c4256cb3")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -71257,7 +69017,7 @@
 			(net 56 "Net-(D50-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "734e07ab-7351-4912-b85c-a65fbf0a5be1")
+			(uuid "19e2cdf0-89bc-49dd-a1c1-4e0d9722ccec")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -71386,46 +69146,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d9872637-deb8-4d6d-a2bd-49b4a98e8355")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "55d3e631-042a-423d-b9bf-e37921a90e11")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5d0e77d3-6952-4c7a-bc5d-7da67e64c06b")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5c7ab45f-f052-4099-bb27-fb68d83b7661")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -72508,7 +70228,7 @@
 			(net 75 "col_0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "186bbfb3-e78c-4084-a121-38ad9a5e0c3d")
+			(uuid "9e61c6c0-a8b5-42d8-8c2a-a617200bf774")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -72529,7 +70249,7 @@
 			(net 39 "Net-(D30-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "a530e7b6-b983-400e-a308-dbf5736744cb")
+			(uuid "68155e19-7108-4dae-a12c-f355d4ba1aac")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -72643,46 +70363,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5c2880f7-4419-4566-b9d6-ba541aefcefe")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b2336fb6-050a-4e0c-be0d-b3e1f58948fb")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bb540b86-e29f-403a-922f-b39a2d5b0d20")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c45a5b6e-7c28-4796-be4b-e1b9a00660da")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -73765,7 +71445,7 @@
 			(net 80 "col_5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "86dde50c-6235-47b3-96fd-5690be46d1db")
+			(uuid "b67ae544-01a2-4e3a-9e2e-33c59dad7058")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -73786,7 +71466,7 @@
 			(net 14 "Net-(D7-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "989f4d22-c6e9-4894-a1e0-c0a0f15bebc9")
+			(uuid "d5abec49-03c4-4d89-b93e-84323cefc947")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -73896,46 +71576,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "06136905-246d-41dc-8d5f-ab1e1cc53b98")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ca608c7e-5951-4fc0-80ff-9163c1546fee")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "44592681-34d3-43f4-b4b3-b93b0f22c5c6")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a6f8f881-0584-4b04-8119-a3ab4bc61f7c")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -75018,7 +72658,7 @@
 			(net 76 "col_1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "56fc2645-4bcc-45da-a88e-15b229f0e610")
+			(uuid "8ec5a34e-0a42-43d1-9e07-eb132fcf7dc9")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -75039,7 +72679,7 @@
 			(net 10 "Net-(D3-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "b2b27784-1d05-45e6-82d3-d1c2e67099d9")
+			(uuid "f97e875f-2629-4172-bd2f-5a36e71ed4b5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -75112,46 +72752,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8f873d5f-973d-470e-acc2-51c8da5ecfb3")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bdab3157-2fcd-474f-9863-127f8799bcff")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b2aead17-88cc-48aa-8184-5e34b75d9560")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "49164e05-fb3e-442d-b24f-0e9cc3091070")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -76245,7 +73845,7 @@
 			(net 88 "col_13")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "dffee8e6-160d-49b8-b100-084c1c27783c")
+			(uuid "81a3e5f4-7950-4996-a235-312d58a6c962")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -76266,7 +73866,7 @@
 			(net 110 "Net-(D62-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "3c662c28-9f61-422d-8376-d0761e21d320")
+			(uuid "c12e64ae-8721-4bd9-a665-6e991f622caa")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
@@ -76385,46 +73985,6 @@
 		(sheetname "/matrix/")
 		(sheetfile "matrix.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 7.6 7.6)
-			(end 7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "14462726-8531-48e5-be4c-8e212dc970a9")
-		)
-		(fp_line
-			(start 7.6 -7.6)
-			(end -7.6 -7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ef8f1e36-860d-45d2-868b-b1e331a0dd90")
-		)
-		(fp_line
-			(start -7.6 7.6)
-			(end 7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ed8f8197-3dcd-4c7e-a176-a9a208af3e31")
-		)
-		(fp_line
-			(start -7.6 -7.6)
-			(end -7.6 7.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1a82282a-7e2d-499d-9f6e-f47367a0ce52")
-		)
 		(fp_line
 			(start 7.646 -1.354)
 			(end 3.56 -1.354)
@@ -77507,7 +75067,7 @@
 			(net 86 "col_11")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "33f03df9-08f4-4df6-8e95-08d58539ac58")
+			(uuid "88f6f3fa-c3f4-4a2b-9c30-65b969c96ddd")
 		)
 		(pad "2" thru_hole circle
 			(at 5 -3.8 180)
@@ -77528,7 +75088,7 @@
 			(net 50 "Net-(D41-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9ea9ef46-51c8-4e07-ad2d-00e68a630235")
+			(uuid "7289d143-0aef-4006-bd85-7be90cfda421")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
