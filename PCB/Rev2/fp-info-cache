@@ -1,4 +1,4 @@
-48083631628585230
+48085398551499285
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -159347,6 +159347,13 @@ nrf52_ant_1.6mm
 0
 1
 1
+PH60
+ws2812B_6028_FIX_PH
+Add-on for Gateron KS33 footprints with with 6028 reverse mount LED
+Gateron KS33 6028 rearmount rear mount led rgb backlight
+0
+4
+4
 PH60
 无标题
 
