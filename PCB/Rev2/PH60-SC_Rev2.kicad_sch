@@ -6778,7 +6778,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 270.51 44.45 0)
+		(at 270.51 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6787,7 +6787,7 @@
 		(fields_autoplaced yes)
 		(uuid "1260e044-bf31-47e4-be79-34b1bd43d092")
 		(property "Reference" "L3"
-			(at 271.78 43.1799 0)
+			(at 271.78 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +6796,7 @@
 			)
 		)
 		(property "Value" "LQG15HS15NJ02D"
-			(at 271.78 45.7199 0)
+			(at 271.78 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +6805,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 270.51 44.45 0)
+			(at 270.51 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,7 +6814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 44.45 0)
+			(at 270.51 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6823,7 +6823,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 270.51 44.45 0)
+			(at 270.51 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +6838,7 @@
 			(uuid "0002b48b-694c-467b-9d68-f75b9423fd90")
 		)
 		(instances
-			(project "PH64lite"
+			(project "PH60-SC_Rev2"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
 					(reference "L3")
 					(unit 1)
@@ -9046,7 +9046,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 270.51 49.53 0)
+		(at 270.51 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9055,7 +9055,7 @@
 		(fields_autoplaced yes)
 		(uuid "89081912-00b1-4115-b20b-c7b121785524")
 		(property "Reference" "L4"
-			(at 271.78 48.2599 0)
+			(at 271.78 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9064,7 +9064,7 @@
 			)
 		)
 		(property "Value" "MCL1608S100MT"
-			(at 271.78 50.7999 0)
+			(at 271.78 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9073,7 +9073,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 270.51 49.53 0)
+			(at 270.51 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9082,7 +9082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 270.51 49.53 0)
+			(at 270.51 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9091,7 +9091,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 270.51 49.53 0)
+			(at 270.51 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,7 +9106,7 @@
 			(uuid "32481a1c-cbae-47a0-ab9c-451583652945")
 		)
 		(instances
-			(project "PH64lite"
+			(project "PH60-SC_Rev2"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
 					(reference "L4")
 					(unit 1)
