@@ -530,7 +530,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PH60-SC_Rev2.kicad_pro",
+    "filename": "PH60-SC_Rev2.1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -728,8 +728,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PH60-SC_Rev2.kicad_sch",
-        "name": "PH60-SC_Rev2",
+        "filename": "PH60-SC_Rev2.1.kicad_sch",
+        "name": "PH60-SC_Rev2.1",
         "uuid": "dca0f898-8fdb-4522-a51d-f4f4238906e7"
       }
     ],
