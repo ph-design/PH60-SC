@@ -1,0 +1,131 @@
+(footprint "PH_SW_3x6x5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "sw"
+		(at 0.125 -0.925 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1f27e224-2e15-4dee-89ab-a0697474cb01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PH_SW_3x6x5"
+		(at 0 -4.875 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5fcf540e-72af-47c6-9aec-85cdb8f1c1c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.1875 -0.4625 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5ed75e2-1303-4ea1-8c9a-344ff98045fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.1875 -0.4625 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e41278a-5d33-47d0-939f-f9b11b0a5c2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.575 -4.1)
+		(end 4.65 3.375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "07ef0808-d3b7-4b4d-8186-9b141c2920bc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 4.875 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a70234ab-b2aa-41c7-a4f1-682d67571671")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -2.7)
+		(size 0.1 0.1)
+		(drill oval 1.2 0.4)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(uuid "3465aabf-ac83-4176-8152-45c6d38371d6")
+	)
+	(pad "1" thru_hole oval
+		(at -2.5 -0.4)
+		(size 1.6 1)
+		(drill oval 1.2 0.6)
+		(layers "*.Cu" "*.Mask" "B.Adhes")
+		(remove_unused_layers no)
+		(uuid "64a7018e-0de1-4683-ab49-dde562520044")
+	)
+	(pad "2" thru_hole oval
+		(at 2.5 -0.4)
+		(size 1.6 1)
+		(drill oval 1.2 0.6)
+		(layers "*.Cu" "*.Mask" "B.Adhes")
+		(remove_unused_layers no)
+		(uuid "9036d962-5c78-4c00-9f27-31f48a9b1067")
+	)
+	(pad "3" thru_hole oval
+		(at -3.5 2 90)
+		(size 2.7 1.8)
+		(drill oval 2.1 1.1)
+		(layers "*.Cu" "*.Mask" "B.Adhes")
+		(remove_unused_layers no)
+		(uuid "6e7b7144-0059-4567-a7ed-fa68c428a288")
+	)
+	(pad "4" thru_hole oval
+		(at 3.5 2 90)
+		(size 2.7 1.8)
+		(drill oval 2.1 1.1)
+		(layers "*.Cu" "*.Mask" "B.Adhes")
+		(remove_unused_layers no)
+		(uuid "b38d164a-8a76-40e1-a79d-2acf0143f390")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d_step/sw.step"
+		(offset
+			(xyz 0 0.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
