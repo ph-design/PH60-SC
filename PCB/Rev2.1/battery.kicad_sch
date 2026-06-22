@@ -2374,7 +2374,7 @@
 			(uuid "ca4acb02-046e-4343-8f75-954fa0f4cef5")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "#PWR020")
 					(unit 1)
@@ -2453,7 +2453,7 @@
 			(uuid "12ccc882-b0ad-49dc-a87c-3e5ec79d5503")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "#PWR024")
 					(unit 1)
@@ -2534,7 +2534,7 @@
 			(uuid "035338e4-0287-4c95-8139-80c9d3cb480a")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "BT1")
 					(unit 1)
@@ -2616,7 +2616,7 @@
 			(uuid "027d28bd-bf67-40cf-b8a2-7b90fab5ea19")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "C23")
 					(unit 1)
@@ -2698,7 +2698,7 @@
 			(uuid "3819d6d6-2c38-439b-88c0-369be1abec11")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "C21")
 					(unit 1)
@@ -2780,7 +2780,7 @@
 			(uuid "825a48e6-e2ab-4333-b78b-c6e97650df78")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "R7")
 					(unit 1)
@@ -2870,7 +2870,7 @@
 			(uuid "c7031352-0439-4cc4-89ed-1cd39d76af13")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "#PWR019")
 					(unit 1)
@@ -2968,7 +2968,7 @@
 			(uuid "50c4528f-416c-447b-af41-c865ce3d5191")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "U3")
 					(unit 1)
@@ -3047,7 +3047,7 @@
 			(uuid "6cda4cc5-7347-4d29-9bb6-a728a6fcead7")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "#PWR022")
 					(unit 1)
@@ -3126,7 +3126,7 @@
 			(uuid "8387e967-95b9-4795-9226-45105b9291ef")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "#PWR025")
 					(unit 1)
@@ -3205,7 +3205,7 @@
 			(uuid "3f041615-7306-4c11-8598-aee03aaddc20")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "#PWR029")
 					(unit 1)
@@ -3303,7 +3303,7 @@
 			(uuid "20867519-0e54-4e31-852d-a6b7e537e609")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "U4")
 					(unit 1)
@@ -3385,7 +3385,7 @@
 			(uuid "003e96d9-92be-4043-aead-076b639b876b")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "R6")
 					(unit 1)
@@ -3463,7 +3463,7 @@
 			(uuid "85f99aad-6a36-42a9-994b-27d5cf899fe8")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "#PWR026")
 					(unit 1)
@@ -3545,7 +3545,7 @@
 			(uuid "38306d97-8851-4252-b1ff-020508bd970d")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "C24")
 					(unit 1)
@@ -3627,7 +3627,7 @@
 			(uuid "cacb2066-70a5-4866-8375-69372846948a")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "R8")
 					(unit 1)
@@ -3705,7 +3705,7 @@
 			(uuid "956541fb-ea42-473f-af48-5f2a3c9a2589")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "#PWR018")
 					(unit 1)
@@ -3783,7 +3783,7 @@
 			(uuid "1e642326-7fdf-4885-8231-29efb2f91f74")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "#PWR028")
 					(unit 1)
@@ -3877,7 +3877,7 @@
 			(uuid "3154ebfe-79ef-4484-befe-244a93418177")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "U2")
 					(unit 1)
@@ -3955,7 +3955,7 @@
 			(uuid "eea0c009-81a3-4d6f-b6e6-09cc8170248d")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "#PWR021")
 					(unit 1)
@@ -4037,7 +4037,7 @@
 			(uuid "b4e1f7a0-6850-4d84-8899-a9097d53b3f5")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "C22")
 					(unit 1)
@@ -4116,7 +4116,7 @@
 			(uuid "baff6fad-1d75-482b-a581-9e9770e6dc4f")
 		)
 		(instances
-			(project "PH60-SC_Rev2"
+			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/65afedf5-5b27-4d53-9ad9-9264a927261c"
 					(reference "#PWR027")
 					(unit 1)
