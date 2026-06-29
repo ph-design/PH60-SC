@@ -82,19 +82,11 @@
           "忽略，实际无干涉，仅切割部分焊盘"
         ],
         [
-          "copper_edge_clearance|283537550|80600000|89070b5f-8dc9-4b5f-ab60-c8b8e1f86d36|f5146e45-98e4-42b7-90df-4333fdfbd380",
-          "忽略，实际无干涉，仅切割部分焊盘"
-        ],
-        [
           "copper_edge_clearance|285918800|42500000|1d67bd87-635e-4f32-88b9-c219297dac6d|50c118cc-e220-4a52-b99b-3f7cd3601276",
           "忽略，实际无干涉，仅切割部分焊盘"
         ],
         [
           "copper_edge_clearance|28950000|40900000|f44fe6b5-c613-4ad8-bc82-d667f4279e8d|78ccdf47-619e-46d8-9cee-a7d8f3e9182b",
-          "忽略，实际无干涉，仅切割部分焊盘"
-        ],
-        [
-          "copper_edge_clearance|40650050|99650000|5970f2d0-533a-45eb-801d-32f9d8c853de|2efd5fde-23b9-4a7f-bb62-3c683f588b23",
           "忽略，实际无干涉，仅切割部分焊盘"
         ]
       ],
@@ -170,7 +162,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.25,
+        "min_copper_edge_clearance": 0.22,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.11,
         "min_hole_to_hole": 0.25,
