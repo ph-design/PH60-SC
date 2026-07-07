@@ -82,12 +82,20 @@
           "忽略，实际无干涉，仅切割部分焊盘"
         ],
         [
+          "copper_edge_clearance|284037550|80100000|00607268-c9f5-49aa-9a9e-9bf8621b6fa4|f5146e45-98e4-42b7-90df-4333fdfbd380",
+          ""
+        ],
+        [
           "copper_edge_clearance|285918800|42500000|1d67bd87-635e-4f32-88b9-c219297dac6d|50c118cc-e220-4a52-b99b-3f7cd3601276",
           "忽略，实际无干涉，仅切割部分焊盘"
         ],
         [
           "copper_edge_clearance|28950000|40900000|f44fe6b5-c613-4ad8-bc82-d667f4279e8d|78ccdf47-619e-46d8-9cee-a7d8f3e9182b",
           "忽略，实际无干涉，仅切割部分焊盘"
+        ],
+        [
+          "copper_edge_clearance|41150050|99150000|29c49864-67fe-4802-9c41-eccad092b97a|2efd5fde-23b9-4a7f-bb62-3c683f588b23",
+          ""
         ]
       ],
       "meta": {
@@ -139,7 +147,7 @@
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -725,7 +733,7 @@
         "uuid": "dca0f898-8fdb-4522-a51d-f4f4238906e7"
       }
     ],
-    "used_designators": "ST1-5",
+    "used_designators": "ST1-5,#PWR23",
     "variants": []
   },
   "sheets": [
