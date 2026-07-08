@@ -6775,7 +6775,7 @@
 		(uuid "fd37c3b4-385c-4d10-b591-d5cd96bd1c80")
 	)
 	(label "VDD_NRF"
-		(at 300.99 175.26 0)
+		(at 295.91 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6875,7 +6875,7 @@
 		(uuid "667259a9-7dbe-445e-b29b-a0a3bf2941d5")
 	)
 	(label "IMU_VCC"
-		(at 300.99 172.72 0)
+		(at 295.91 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7035,7 +7035,7 @@
 		(uuid "e66f409d-f784-46c1-bd9f-5f1217058bbf")
 	)
 	(label "GPIO_VDD_OUT"
-		(at 300.99 170.18 0)
+		(at 295.91 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9731,7 +9731,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 295.91 172.72 0)
+		(at 290.83 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9742,7 +9742,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d8ac4d3-bf19-4134-819f-ed307e37a241")
 		(property "Reference" "J5"
-			(at 296.545 165.1 0)
+			(at 291.465 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9752,7 +9752,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 296.545 167.64 0)
+			(at 291.465 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9762,7 +9762,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 295.91 172.72 0)
+			(at 290.83 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9773,7 +9773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 172.72 0)
+			(at 290.83 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9784,7 +9784,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 295.91 172.72 0)
+			(at 290.83 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
