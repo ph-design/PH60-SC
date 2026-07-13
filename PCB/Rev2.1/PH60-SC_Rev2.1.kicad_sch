@@ -4994,6 +4994,16 @@
 		)
 		(uuid "3f240bd0-ff25-489b-931e-b5a0ee77d169")
 	)
+	(text "C27（DNF）"
+		(exclude_from_sim no)
+		(at 139.954 109.474 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "625825c1-9092-4a0d-b8c2-af1a66911230")
+	)
 	(text "ESD"
 		(exclude_from_sim no)
 		(at 54.61 133.096 0)
@@ -5353,6 +5363,16 @@
 			(type default)
 		)
 		(uuid "09e8103c-c453-4678-b83a-7678f2173e3c")
+	)
+	(wire
+		(pts
+			(xy 158.75 104.14) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be7d347-a850-414a-b27d-72daf07d1105")
 	)
 	(wire
 		(pts
@@ -6086,16 +6106,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 104.14) (xy 163.83 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76fdb0b3-fe78-46c4-b4c1-6f87a01e7182")
-	)
-	(wire
-		(pts
 			(xy 275.59 60.96) (xy 285.75 60.96)
 		)
 		(stroke
@@ -6456,7 +6466,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 104.14) (xy 152.4 104.14)
+			(xy 147.32 104.14) (xy 153.67 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9569,86 +9579,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 156.21 104.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ad1c5f9-014d-4a74-b012-f753a401529a")
-		(property "Reference" "R3"
-			(at 156.21 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 156.21 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 156.21 105.918 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 156.21 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "553acc47-a47f-4209-a074-b6a237f7b9c8")
-		)
-		(pin "1"
-			(uuid "ecffa3a6-9905-4257-b9d8-41d77eb362cf")
-		)
-		(instances
-			(project "PH60-SC_Rev2.1"
-				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 139.7 54.61 0)
 		(unit 1)
@@ -9835,7 +9765,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.5p"
+		(property "Value" "2.8p"
 			(at 166.37 109.2135 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10439,7 +10369,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12481,6 +12411,86 @@
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 156.21 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc8128e4-2a54-4cca-932e-9ea0f6e28b49")
+		(property "Reference" "L5"
+			(at 156.21 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2 nH"
+			(at 156.21 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 156.21 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 156.21 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "99b40dc4-b1f6-4ab3-9742-055d4c1d81b6")
+		)
+		(pin "1"
+			(uuid "4f326948-3e60-4e4a-950d-5565dff39522")
+		)
+		(instances
+			(project "PH60-SC_Rev2.1"
+				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
+					(reference "L5")
 					(unit 1)
 				)
 			)

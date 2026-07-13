@@ -1,0 +1,137 @@
+(footprint "nrf52_ant_1.2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "AE1"
+		(at -0.036 1.091 0)
+		(unlocked yes)
+		(layer "Eco2.User")
+		(uuid "630786fa-1b35-4177-bd79-e5c2d8a4d909")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Value" "Antenna"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5097cb2-ed7e-4595-986c-ab54edc033e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e771f62b-e6d8-439a-859c-df7982603247")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2.4GHz meander antenna tuned for PH60-SC keyboard notch on 1.2mm FR4. Full-board MoM sim: tail shortened 1.51mm vs 1.6mm design, f_res(X=0)=2.441GHz, Z=8.7-0.1j ohm at 2.44GHz; feed via L-match (1.2nH series + 2.85pF shunt)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43f5a1a3-3934-4431-849e-0b3f0ceb41a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "exclude_from_bom" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d96ad56a-773b-44ff-a3e2-d90d3c81d0f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd custom
+		(at 0 0 180)
+		(size 0.254 0.254)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_line
+				(start 0 0)
+				(end 0 5.727207)
+				(width 0.254)
+			)
+			(gr_line
+				(start 0 5.727207)
+				(end 2.217801 5.727207)
+				(width 0.254)
+			)
+			(gr_line
+				(start 2.217801 5.727207)
+				(end 2.217801 2.783601)
+				(width 0.254)
+			)
+			(gr_line
+				(start 2.217801 2.783601)
+				(end 4.275201 2.783601)
+				(width 0.254)
+			)
+			(gr_line
+				(start 4.275201 5.727207)
+				(end 4.275201 2.783601)
+				(width 0.254)
+			)
+			(gr_line
+				(start 4.275201 5.727207)
+				(end 6.256401 5.727207)
+				(width 0.254)
+			)
+			(gr_line
+				(start 6.256401 5.727207)
+				(end 6.256401 2.758201)
+				(width 0.254)
+			)
+			(gr_line
+				(start 6.256401 2.758201)
+				(end 8.212201 2.758201)
+				(width 0.254)
+			)
+			(gr_line
+				(start 8.212201 5.727207)
+				(end 8.212201 2.758201)
+				(width 0.254)
+			)
+			(gr_line
+				(start 8.212201 5.727207)
+				(end 10.091801 5.727207)
+				(width 0.254)
+			)
+			(gr_line
+				(start 10.091801 5.727207)
+				(end 10.091801 4.273004)
+				(width 0.254)
+			)
+		)
+		(uuid "86c292d0-b974-41ce-9be0-38047b083e5e")
+	)
+	(embedded_fonts no)
+)
