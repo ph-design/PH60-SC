@@ -1,0 +1,233 @@
+(footprint "ws2812B_6028_Production_EX"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Add-on for Gateron KS33 footprints with with 6028 reverse mount LED")
+	(tags "Gateron KS33 6028 rearmount rear mount led rgb backlight")
+	(property "Reference" "RGB1"
+		(at 0 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fa9a4f32-849a-4a02-99ab-eb4bd302bad6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "WS2812B"
+		(at 0 2.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c730bb03-e893-49f9-9922-31e677bc2092")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5ebb253-0d52-415b-9d3e-3574ea2dd870")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RGB LED with integrated controller"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04742088-e3da-4b8b-9d24-44800a6d5fb6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
+	(sheetname "/RGB/")
+	(sheetfile "RGB.kicad_sch")
+	(zone_connect 2)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 3.46 -1.27)
+		(end 3.3 -1.37)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "50064db5-b9f5-409c-9e61-f624b5649b0f")
+	)
+	(fp_rect
+		(start -1.75 -1.55)
+		(end 1.75 1.55)
+		(radius 0.13)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "61b1bfd5-d7f2-4a6b-a14d-2176bb8a7dfc")
+	)
+	(fp_line
+		(start -3.8 -1.999999)
+		(end -3.8 2.000001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2cb161a-4de3-4ef3-a7bb-8c11b1a6c701")
+	)
+	(fp_line
+		(start -3.8 2.000001)
+		(end 3.8 2.000001)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9b274771-c692-4152-a69e-254e3e4a053c")
+	)
+	(fp_line
+		(start 3.8 -1.999999)
+		(end -3.8 -1.999999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a258765-df6a-437a-92b5-1455d9b50fec")
+	)
+	(fp_line
+		(start 3.8 2.000001)
+		(end 3.8 -1.999999)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91eb04a4-86df-46ee-96f2-d9adc2c56fbc")
+	)
+	(fp_line
+		(start -1.6 -1.399999)
+		(end -1.6 1.400001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3402a83e-45a9-4632-85a2-54558a51cc19")
+	)
+	(fp_line
+		(start -1.6 1.400001)
+		(end 1.6 1.400001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b9fccd4-abcd-4aa8-a035-98c11f63db52")
+	)
+	(fp_line
+		(start 1.1 -1.399999)
+		(end -1.6 -1.399999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56329c59-5eb9-4eab-b8fc-e40660491a47")
+	)
+	(fp_line
+		(start 1.1 -1.399999)
+		(end 1.6 -0.899999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abf31ab7-9dc0-4f42-8ccd-ba39bcf9c1d2")
+	)
+	(fp_line
+		(start 1.6 1.400001)
+		(end 1.6 -0.899999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48792484-e0bc-477d-8120-5925f7f91045")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "29bd304f-6ec5-4d59-ae7d-91c9e7575c67")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.725 0.85 270)
+		(size 1.15 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "0e95aea5-7f33-4123-b4f2-cf7db425bb91")
+	)
+	(pad "2" smd roundrect
+		(at -2.725 -0.85 270)
+		(size 1.15 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "09200282-2ad8-4814-ae75-1c4a87abeb9d")
+	)
+	(pad "3" smd roundrect
+		(at 2.725 -0.85 270)
+		(size 1.15 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(chamfer_ratio 0.5)
+		(chamfer top_left)
+		(uuid "200afc78-64f9-4c4d-9a0c-b4de39bd9fc7")
+	)
+	(pad "4" smd roundrect
+		(at 2.725 0.85 270)
+		(size 1.15 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "97a18922-c32e-47a7-a77c-8026de1658fe")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/LED_SK6812MINI-E.step"
+		(offset
+			(xyz 0 -5.08 -1.76)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+)

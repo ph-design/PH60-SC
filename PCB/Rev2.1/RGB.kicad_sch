@@ -3550,7 +3550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 369.57 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3718,7 +3718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 210.82 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -3805,7 +3805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 185.42 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -3892,7 +3892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 189.23 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3979,7 +3979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 326.39 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4066,7 +4066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 232.41 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4390,7 +4390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 278.13 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4477,7 +4477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 140.97 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -4564,7 +4564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 209.55 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4651,7 +4651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 234.95 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4738,7 +4738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 212.09 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4825,7 +4825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 279.4 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -4912,7 +4912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 349.25 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4999,7 +4999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 299.72 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -5086,7 +5086,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 227.33 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -5173,7 +5173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 250.19 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -5260,7 +5260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 368.3 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -5347,7 +5347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 346.71 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5434,7 +5434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 345.44 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -5521,7 +5521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 140.97 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5608,7 +5608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 143.51 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5695,7 +5695,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 119.38 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -5782,7 +5782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 140.97 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -5869,7 +5869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 370.84 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5956,7 +5956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 120.65 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6043,7 +6043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 276.86 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6130,7 +6130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 72.39 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6295,7 +6295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 118.11 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6382,7 +6382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 187.96 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6469,7 +6469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 302.26 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6556,7 +6556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 271.78 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -6643,7 +6643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 233.68 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6730,7 +6730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 300.99 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6817,7 +6817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 120.65 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6904,7 +6904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 322.58 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6991,7 +6991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 372.11 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7078,7 +7078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 280.67 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7165,7 +7165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 74.93 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7252,7 +7252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 323.85 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7339,7 +7339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 208.28 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7426,7 +7426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 143.51 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7513,7 +7513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 163.83 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7600,7 +7600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 97.79 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7687,7 +7687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 325.12 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7774,7 +7774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 255.27 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7861,7 +7861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 303.53 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7948,7 +7948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 231.14 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8035,7 +8035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 186.69 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8200,7 +8200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 256.54 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8287,7 +8287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 185.42 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8455,7 +8455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 347.98 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8542,7 +8542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 166.37 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8629,7 +8629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 257.81 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8716,7 +8716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 166.37 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8803,7 +8803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 118.11 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8891,7 +8891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 254 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8978,7 +8978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 97.79 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9065,7 +9065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 95.25 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9152,7 +9152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 163.83 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9239,7 +9239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 204.47 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9326,7 +9326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGB:ws2812B_6028_Production"
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
 			(at 163.83 111.76 0)
 			(hide yes)
 			(show_name no)
