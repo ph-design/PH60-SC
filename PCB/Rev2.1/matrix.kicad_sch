@@ -613,6 +613,12 @@
 		(uuid "10b91700-a267-4101-9ecb-9bdf4d390c6f")
 	)
 	(junction
+		(at 383.54 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12f2d7b2-c092-412d-a0ff-c39c29e13609")
+	)
+	(junction
 		(at 307.34 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -653,6 +659,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25490034-cddd-4c16-813d-f260c0897c98")
+	)
+	(junction
+		(at 347.98 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ea2818d-7abc-43db-bbaa-cb7b93cce6f6")
 	)
 	(junction
 		(at 271.78 157.48)
@@ -1718,6 +1730,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 157.48) (xy 347.98 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3696077b-8d22-4762-8114-08c012bfa5b3")
+	)
+	(wire
+		(pts
 			(xy 231.14 82.55) (xy 231.14 104.14)
 		)
 		(stroke
@@ -1875,6 +1897,16 @@
 			(type default)
 		)
 		(uuid "41f53295-1a0e-47c7-9c37-dcbb1c3d163e")
+	)
+	(wire
+		(pts
+			(xy 383.54 147.32) (xy 383.54 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d69d99-0c20-4011-bc75-f9bcdce2b943")
 	)
 	(wire
 		(pts
@@ -2378,7 +2410,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 104.14) (xy 383.54 168.91)
+			(xy 383.54 104.14) (xy 383.54 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3438,6 +3470,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 154.94) (xy 373.38 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7338e0-4bd1-47a0-a2e3-50f19f128933")
+	)
+	(wire
+		(pts
 			(xy 383.54 73.66) (xy 383.54 82.55)
 		)
 		(stroke
@@ -4304,7 +4346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0230c231-a7c4-4db4-a39e-50279f3c1e4a")
-		(property "Reference" "D62"
+		(property "Reference" "D63"
 			(at 375.92 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4396,7 +4438,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D62")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -4698,7 +4740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "070f7857-461b-4b09-89fc-1506174accba")
-		(property "Reference" "D56"
+		(property "Reference" "D57"
 			(at 71.12 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,7 +4832,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D56")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -5069,7 +5111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08c0c156-2a27-464a-9af8-626a275d34e6")
-		(property "Reference" "D43"
+		(property "Reference" "D44"
 			(at 45.72 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5161,7 +5203,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D43")
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -5336,82 +5378,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-choc:choc_stab")
-		(at 353.06 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09fb2a6f-b281-484e-8830-8ffd00ad2ef5")
-		(property "Reference" "ST4"
-			(at 359.41 145.9229 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "choc_stab"
-			(at 359.41 148.4629 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "STAB:STAB_CHOC_2U"
-			(at 353.06 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Kailh Choc-style stabilizer"
-			(at 353.06 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "PH60-SC_Rev2.1"
-				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "ST4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 322.58 173.99 90)
 		(unit 1)
@@ -5423,7 +5389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e4545c3-8ff9-4c43-955c-43fb37f6ffe6")
-		(property "Reference" "D60"
+		(property "Reference" "D61"
 			(at 325.12 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5515,7 +5481,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D60")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -5533,7 +5499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f6e997a-5ef9-48e4-98ac-9fbd5afdd5f3")
-		(property "Reference" "D58"
+		(property "Reference" "D59"
 			(at 198.12 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5625,7 +5591,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D58")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -5730,7 +5696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1014e9dc-e8df-404e-b48b-c755cb0e3593")
-		(property "Reference" "D51"
+		(property "Reference" "D52"
 			(at 274.32 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,7 +5788,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D51")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -5950,7 +5916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17a92a21-fd83-4a15-87b7-d0eca93e76e7")
-		(property "Reference" "D47"
+		(property "Reference" "D48"
 			(at 172.72 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6042,7 +6008,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D47")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -6675,7 +6641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2acae6d1-2b31-4c75-bf3b-d7e5f09ed35c")
-		(property "Reference" "S57"
+		(property "Reference" "S58"
 			(at 200.66 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6743,7 +6709,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "S57")
+					(reference "S58")
 					(unit 1)
 				)
 			)
@@ -7179,7 +7145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c000a4-4ebb-4001-aaf6-6a2650fdcc00")
-		(property "Reference" "S56"
+		(property "Reference" "S57"
 			(at 99.06 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7247,7 +7213,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "S56")
+					(reference "S57")
 					(unit 1)
 				)
 			)
@@ -7542,7 +7508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bc0e3cb-26b9-43c3-b8d4-79f30dcc9809")
-		(property "Reference" "D61"
+		(property "Reference" "D62"
 			(at 349.25 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7634,7 +7600,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D61")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -7739,7 +7705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cd2a605-4a03-4d37-8516-7a3dfe774096")
-		(property "Reference" "ST2"
+		(property "Reference" "ST3"
 			(at 54.61 145.9229 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7797,7 +7763,7 @@
 		(instances
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "ST2")
+					(reference "ST3")
 					(unit 1)
 				)
 			)
@@ -7816,7 +7782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fec036c-c2b3-4eea-ac76-fd58532868d1")
-		(property "Reference" "S60"
+		(property "Reference" "S61"
 			(at 353.06 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7884,7 +7850,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "S60")
+					(reference "S61")
 					(unit 1)
 				)
 			)
@@ -8354,7 +8320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cebc847-44d5-4926-bf24-1c73e29290cb")
-		(property "Reference" "D49"
+		(property "Reference" "D50"
 			(at 223.52 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8446,7 +8412,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D49")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -8870,7 +8836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c850955-54e3-4e8f-89ca-c8f93f8a968e")
-		(property "Reference" "D52"
+		(property "Reference" "D53"
 			(at 299.72 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8962,7 +8928,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D52")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -9090,7 +9056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "632be85b-cb25-40a2-8141-28093baf64f9")
-		(property "Reference" "D50"
+		(property "Reference" "D51"
 			(at 248.92 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9182,7 +9148,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D50")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -9287,7 +9253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67e105d9-ca54-44cb-9242-d68103505807")
-		(property "Reference" "D59"
+		(property "Reference" "D60"
 			(at 299.72 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9379,7 +9345,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D59")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -9682,7 +9648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ef772f9-3e56-4c68-9687-9d64045c8a31")
-		(property "Reference" "S58"
+		(property "Reference" "S59"
 			(at 302.26 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9750,7 +9716,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "S58")
+					(reference "S59")
 					(unit 1)
 				)
 			)
@@ -10250,7 +10216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6ebfe4-2d77-47d2-9c10-9472c5bbdcb0")
-		(property "Reference" "S55"
+		(property "Reference" "S56"
 			(at 73.66 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10318,7 +10284,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "S55")
+					(reference "S56")
 					(unit 1)
 				)
 			)
@@ -10336,7 +10302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "808ec240-2567-480f-a754-127813021c4f")
-		(property "Reference" "D54"
+		(property "Reference" "D55"
 			(at 350.52 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10422,7 +10388,7 @@
 		(instances
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D54")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -10441,7 +10407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81af0fcc-f862-40db-8ecd-6a848006c29b")
-		(property "Reference" "S54"
+		(property "Reference" "S55"
 			(at 48.26 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10509,7 +10475,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "S54")
+					(reference "S55")
 					(unit 1)
 				)
 			)
@@ -10782,7 +10748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8829ca0d-490f-437d-ac44-c146cbb2c5df")
-		(property "Reference" "ST3"
+		(property "Reference" "ST4"
 			(at 207.01 167.5129 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10840,7 +10806,7 @@
 		(instances
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "ST3")
+					(reference "ST4")
 					(unit 1)
 				)
 			)
@@ -11306,6 +11272,87 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
+		(at 378.46 147.32 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92c53094-05f6-423f-a94d-3f9b4d8055c6")
+		(property "Reference" "S54"
+			(at 378.46 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Choc_V2"
+			(at 378.46 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "PH60:SW_Hotswap_Kailh_Choc_V2_Plated_Nosilkscreen"
+			(at 378.46 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 378.46 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1f0ecb5f-f63b-4f5f-8cf2-d478a6d4f3ce")
+		)
+		(pin "1"
+			(uuid "33d75d11-9148-4880-b957-61b4a7793ee9")
+		)
+		(instances
+			(project "PH60-SC_Rev2.1"
+				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
+					(reference "S54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
 		(at 378.46 168.91 0)
 		(mirror y)
 		(unit 1)
@@ -11317,7 +11364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "931ebc6a-a615-493d-852e-5205dfb1da73")
-		(property "Reference" "S61"
+		(property "Reference" "S62"
 			(at 378.46 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11385,7 +11432,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "S61")
+					(reference "S62")
 					(unit 1)
 				)
 			)
@@ -11623,7 +11670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0408ed0-0f86-4e39-8632-453afcfd3071")
-		(property "Reference" "D55"
+		(property "Reference" "D56"
 			(at 45.72 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11715,7 +11762,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D55")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -11826,6 +11873,110 @@
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 373.38 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2103101-012f-4084-9277-b9b5e12530b6")
+		(property "Reference" "D43"
+			(at 375.92 149.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DIODE"
+			(at 375.92 152.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 373.38 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 373.38 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 373.38 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 373.38 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8781e695-8c87-491d-8768-1ec3473f1aa0")
+		)
+		(pin "2"
+			(uuid "fbb1bb51-4005-4b9f-abc2-a14676f71ad6")
+		)
+		(instances
+			(project "PH60-SC_Rev2.1"
+				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -12150,7 +12301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5a43d31-15b4-4155-9d73-c8c94ef30c4c")
-		(property "Reference" "D45"
+		(property "Reference" "D46"
 			(at 121.92 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12236,7 +12387,7 @@
 		(instances
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D45")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -13129,7 +13280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be8fd2d8-cfb0-4ca4-bf43-c6c2b38bf76c")
-		(property "Reference" "D46"
+		(property "Reference" "D47"
 			(at 147.32 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13221,7 +13372,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D46")
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -13240,7 +13391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bef6c09f-ae8a-4401-86f2-28897c8d0be3")
-		(property "Reference" "S59"
+		(property "Reference" "S60"
 			(at 327.66 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13308,7 +13459,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "S59")
+					(reference "S60")
 					(unit 1)
 				)
 			)
@@ -13975,7 +14126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6f252ce-e56f-4af4-9339-72aa15d13594")
-		(property "Reference" "D44"
+		(property "Reference" "D45"
 			(at 96.52 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14061,7 +14212,7 @@
 		(instances
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D44")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -14189,7 +14340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c899250c-f354-4a94-9d69-d690dd062efb")
-		(property "Reference" "D48"
+		(property "Reference" "D49"
 			(at 198.12 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14281,7 +14432,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D48")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -14409,7 +14560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cedfd55e-42ff-4d2c-b1e9-77aada598530")
-		(property "Reference" "ST5"
+		(property "Reference" "ST1"
 			(at 384.81 81.1529 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14467,7 +14618,7 @@
 		(instances
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "ST5")
+					(reference "ST1")
 					(unit 1)
 				)
 			)
@@ -14485,7 +14636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2207296-142f-4798-b376-dd00408f35fa")
-		(property "Reference" "D57"
+		(property "Reference" "D58"
 			(at 96.52 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14577,7 +14728,7 @@
 			)
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D57")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -14595,7 +14746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5052686-c5a1-49ab-84fd-bb6fba8fe04c")
-		(property "Reference" "D53"
+		(property "Reference" "D54"
 			(at 325.12 151.1299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14681,7 +14832,7 @@
 		(instances
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "D53")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -15330,7 +15481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8f6a1cd-3076-400a-a645-a8e63bfe2369")
-		(property "Reference" "ST1"
+		(property "Reference" "ST2"
 			(at 359.41 124.3329 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15388,7 +15539,7 @@
 		(instances
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/dc5cd3b2-ef82-41de-b720-71645d542746"
-					(reference "ST1")
+					(reference "ST2")
 					(unit 1)
 				)
 			)

@@ -898,6 +898,12 @@
 		(uuid "4cc577da-6b4f-431c-aeb7-ffc8601d48ba")
 	)
 	(junction
+		(at 369.57 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dfa5ffa-a59e-495a-a89b-4d8e85a68750")
+	)
+	(junction
 		(at 278.13 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -988,12 +994,6 @@
 		(uuid "76102f6c-53e7-4208-8a23-5dc5b28f9228")
 	)
 	(junction
-		(at 139.7 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ac63e4e-6e12-462f-b7f3-30727945fd56")
-	)
-	(junction
 		(at 91.44 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1040,12 +1040,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c0648f8-2c89-4c3b-9113-8380fc4ef59e")
-	)
-	(junction
-		(at 118.11 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c700cb0-9ed8-430f-80dd-46703ac265a1")
 	)
 	(junction
 		(at 119.38 151.13)
@@ -1192,6 +1186,12 @@
 		(uuid "b846d3d2-4701-4064-b930-59e6742feda3")
 	)
 	(junction
+		(at 297.18 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc24cf22-ed96-4fc3-aa67-dc5edbc2202d")
+	)
+	(junction
 		(at 302.26 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1214,6 +1214,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c227f1c2-2a44-44c3-a4bb-81ae1d2b2306")
+	)
+	(junction
+		(at 386.08 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c52f5884-da89-472d-bebb-03456a445e03")
 	)
 	(junction
 		(at 255.27 170.18)
@@ -1408,6 +1414,12 @@
 		(uuid "f7a8a942-1c3d-46cc-8d54-6817fa64d732")
 	)
 	(junction
+		(at 270.51 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8259f0c-1cbc-421c-ba5d-c46d150744f2")
+	)
+	(junction
 		(at 232.41 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1432,8 +1444,8 @@
 		(uuid "ffd6dc04-d9f0-4895-99f2-63fcdfcb9dbd")
 	)
 	(no_connect
-		(at 278.13 185.42)
-		(uuid "273825a1-c6aa-4d4b-8a32-2bf60f40e632")
+		(at 304.8 185.42)
+		(uuid "08e32309-e49b-404b-a429-a7b8a6361cf8")
 	)
 	(wire
 		(pts
@@ -1607,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 170.18) (xy 369.57 170.18)
+			(xy 396.24 170.18) (xy 386.08 170.18)
 		)
 		(stroke
 			(width 0)
@@ -1687,6 +1699,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 162.56) (xy 378.46 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fbfd48e-6dc0-4f5c-b95d-7812a0d93104")
+	)
+	(wire
+		(pts
 			(xy 279.4 127) (xy 302.26 127)
 		)
 		(stroke
@@ -1757,7 +1779,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 193.04) (xy 50.8 193.04)
+			(xy 50.8 193.04) (xy 139.7 193.04)
 		)
 		(stroke
 			(width 0)
@@ -1854,6 +1876,16 @@
 			(type default)
 		)
 		(uuid "30347f18-48d3-4b13-bfae-7a1d7ac27808")
+	)
+	(wire
+		(pts
+			(xy 369.57 154.94) (xy 386.08 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30eef819-5a34-4792-92e5-50b01e608ee2")
 	)
 	(wire
 		(pts
@@ -2267,16 +2299,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 177.8) (xy 139.7 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61be1bbb-5027-427d-aa39-f92e331a9867")
-	)
-	(wire
-		(pts
 			(xy 142.24 170.18) (xy 165.1 170.18)
 		)
 		(stroke
@@ -2367,16 +2389,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 185.42) (xy 132.08 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f9ce00a-4573-47bb-8050-52af11e18f8f")
-	)
-	(wire
-		(pts
 			(xy 255.27 170.18) (xy 278.13 170.18)
 		)
 		(stroke
@@ -2427,7 +2439,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 185.42) (xy 110.49 185.42)
+			(xy 99.06 185.42) (xy 132.08 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2484,6 +2496,16 @@
 			(type default)
 		)
 		(uuid "7f2b75d8-0916-488e-b463-e55a0798539a")
+	)
+	(wire
+		(pts
+			(xy 278.13 185.42) (xy 289.56 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f534d32-bd96-49e8-8f81-0d1a8b35e215")
 	)
 	(wire
 		(pts
@@ -2587,6 +2609,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 177.8) (xy 396.24 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e73b3b1-9205-49a9-821a-21dadb71c6f8")
+	)
+	(wire
+		(pts
 			(xy 232.41 135.89) (xy 255.27 135.89)
 		)
 		(stroke
@@ -2607,16 +2639,6 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 162.56) (xy 377.19 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8feff96a-c46f-456c-a037-050f88274e9b")
-	)
-	(wire
-		(pts
 			(xy 104.14 143.51) (xy 111.76 143.51)
 		)
 		(stroke
@@ -2624,6 +2646,16 @@
 			(type default)
 		)
 		(uuid "90031f80-2f71-4511-91f0-18ae602077e2")
+	)
+	(wire
+		(pts
+			(xy 393.7 162.56) (xy 393.7 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902724f7-de6c-4f00-a1a4-c03e778932a3")
 	)
 	(wire
 		(pts
@@ -2747,16 +2779,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 193.04) (xy 139.7 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a31f9e5b-404d-4004-a6e5-0a4591df1e1e")
-	)
-	(wire
-		(pts
 			(xy 302.26 111.76) (xy 325.12 111.76)
 		)
 		(stroke
@@ -2777,16 +2799,6 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 143.51) (xy 383.54 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abd55434-8d25-4bb0-a831-4a792f4f4d39")
-	)
-	(wire
-		(pts
 			(xy 287.02 99.06) (xy 294.64 99.06)
 		)
 		(stroke
@@ -2804,6 +2816,16 @@
 			(type default)
 		)
 		(uuid "ac4f3948-6c63-4a83-936d-04de503e7831")
+	)
+	(wire
+		(pts
+			(xy 270.51 193.04) (xy 297.18 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb44b82-ed2e-4a47-af75-e672b906c326")
 	)
 	(wire
 		(pts
@@ -2957,7 +2979,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 177.8) (xy 396.24 177.8)
+			(xy 270.51 177.8) (xy 297.18 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3317,6 +3339,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 170.18) (xy 369.57 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2788493-d512-4d73-a053-454b64d7300c")
+	)
+	(wire
+		(pts
 			(xy 279.4 111.76) (xy 302.26 111.76)
 		)
 		(stroke
@@ -3347,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 143.51) (xy 383.54 143.51)
+			(xy 377.19 143.51) (xy 393.7 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5666,7 +5698,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 118.11 185.42 0)
+		(at 386.08 162.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5676,7 +5708,7 @@
 		(dnp no)
 		(uuid "52e8670f-1b76-4d98-a553-a11c1ef69064")
 		(property "Reference" "RGB54"
-			(at 129.54 178.9998 0)
+			(at 374.65 168.9802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5686,7 +5718,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 129.54 181.5398 0)
+			(at 374.65 166.4402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5696,7 +5728,7 @@
 			)
 		)
 		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
-			(at 119.38 193.04 0)
+			(at 384.81 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5708,7 +5740,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 120.65 194.945 0)
+			(at 383.54 153.035 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5720,7 +5752,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 118.11 185.42 0)
+			(at 386.08 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8506,6 +8538,93 @@
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/972fcb42-aba7-427d-9ffc-eb5767ba1d3c"
 					(reference "RGB40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 297.18 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dba74b17-51f1-46be-840c-6b53a7448c8d")
+		(property "Reference" "RGB62"
+			(at 308.61 178.9998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 308.61 181.5398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RGB:ws2812B_6028_Production_EX"
+			(at 298.45 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 299.72 194.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 297.18 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "44dcb2e4-b8d2-45f9-84e1-306e71fed75e")
+		)
+		(pin "1"
+			(uuid "a8e1fac2-e373-4e76-9981-d787fc4d3871")
+		)
+		(pin "3"
+			(uuid "d9d740fc-bc81-4b68-95b0-7da88865ecfc")
+		)
+		(pin "4"
+			(uuid "fcb7849c-48d2-4b7f-95b0-be9cfa2811a5")
+		)
+		(instances
+			(project "PH60-SC_Rev2.1"
+				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7/972fcb42-aba7-427d-9ffc-eb5767ba1d3c"
+					(reference "RGB62")
 					(unit 1)
 				)
 			)

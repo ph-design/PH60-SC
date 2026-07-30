@@ -78,16 +78,28 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|278775050|99650000|a5e62eb6-9cf9-4abd-93be-f2b6aeafcb9e|8311f19e-6388-4947-bea9-58bf74289f72",
-          "忽略，实际无干涉，仅切割部分焊盘"
+          "copper_edge_clearance|284037550|80100000|29c49864-67fe-4802-9c41-eccad092b97a|f5146e45-98e4-42b7-90df-4333fdfbd380",
+          ""
         ],
         [
-          "copper_edge_clearance|285918800|42500000|1d67bd87-635e-4f32-88b9-c219297dac6d|50c118cc-e220-4a52-b99b-3f7cd3601276",
-          "忽略，实际无干涉，仅切割部分焊盘"
+          "copper_edge_clearance|285834400|42500000|c18f506f-3bc0-4a70-bbb2-316eeba5d6f5|50c118cc-e220-4a52-b99b-3f7cd3601276",
+          ""
         ],
         [
           "copper_edge_clearance|28950000|40900000|f44fe6b5-c613-4ad8-bc82-d667f4279e8d|78ccdf47-619e-46d8-9cee-a7d8f3e9182b",
           "忽略，实际无干涉，仅切割部分焊盘"
+        ],
+        [
+          "copper_edge_clearance|29125000|66215000|3b662e0f-8a22-47a1-a599-686a8ed40b8a|a6fd4ee4-1e1a-4754-8837-dcf01f02ee02",
+          ""
+        ],
+        [
+          "copper_edge_clearance|29125000|74855000|3b662e0f-8a22-47a1-a599-686a8ed40b8a|22550a38-64f2-4ebc-a560-296cf5dbdce5",
+          ""
+        ],
+        [
+          "copper_edge_clearance|40650050|99650000|01fdfd39-d7e6-454c-8a90-b161be8a0b4d|2efd5fde-23b9-4a7f-bb62-3c683f588b23",
+          ""
         ]
       ],
       "meta": {
@@ -577,7 +589,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "",
     "bom_fmt_presets": [],
@@ -725,7 +737,7 @@
         "uuid": "dca0f898-8fdb-4522-a51d-f4f4238906e7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR30-33,D2-63,C25-26,C28,ST1-5,S1-62,RGB1-62",
     "variants": []
   },
   "sheets": [

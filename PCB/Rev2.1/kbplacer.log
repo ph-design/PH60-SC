@@ -1,0 +1,592 @@
+INFO: kbplacer_plugin_action.py:73: Plugin version: 0.16
+INFO: kbplacer_plugin_action.py:74: Python version: '3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)]'
+INFO: kbplacer_plugin_action.py:75: KiCad version: 10.0.3 with 4.2.2 msw (phoenix) wxWidgets 3.3.2
+INFO: kbplacer_dialog.py:695: Language: en
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "C:\\Users\\29854\\Downloads\\keyboard-layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "S{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 180.0, "side": "Front"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": 7.0, "y": 6.0, "orientation": 90.0, "side": "Back"}, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "RGB{}", "position_option": "Custom", "position": {"x": 0.0, "y": 5.3, "orientation": 0.0, "side": "Back"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0, "layout_offset": null}
+WARNING: key_placer.py:136: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+DEBUG: key_placer.py:143: Switches by nets: {}
+DEBUG: key_placer.py:147: Diodes by switch: {'S1': ['D2'], 'S52': ['D54'], 'S42': ['D44'], 'S32': ['D33'], 'S34': ['D35'], 'S41': ['D42'], 'S46': ['D48'], 'S47': ['D49'], 'S5': ['D6'], 'S38': ['D39'], 'S48': ['D50'], 'S57': ['D58'], 'S44': ['D46'], 'S20': ['D21'], 'S51': ['D53'], 'S45': ['D47'], 'S61': ['D62'], 'S27': ['D28'], 'S3': ['D4'], 'S4': ['D5'], 'S33': ['D34'], 'S62': ['D63'], 'S17': ['D18'], 'S28': ['D29'], 'S60': ['D61'], 'S31': ['D32'], 'S29': ['D30'], 'S40': ['D41'], 'S43': ['D45'], 'S9': ['D10'], 'S50': ['D52'], 'S7': ['D8'], 'S49': ['D51'], 'S24': ['D25'], 'S39': ['D40'], 'S21': ['D22'], 'S10': ['D11'], 'S2': ['D3'], 'S25': ['D26'], 'S14': ['D15'], 'S53': ['D55'], 'S16': ['D17'], 'S13': ['D14'], 'S54': ['D43'], 'S15': ['D16'], 'S6': ['D7'], 'S56': ['D57'], 'S26': ['D27'], 'S18': ['D19'], 'S59': ['D60'], 'S23': ['D24'], 'S36': ['D37'], 'S55': ['D56'], 'S37': ['D38'], 'S12': ['D13'], 'S35': ['D36'], 'S30': ['D31'], 'S22': ['D23'], 'S58': ['D59'], 'S11': ['D12'], 'S19': ['D20'], 'S8': ['D9']}
+INFO: kle_serial.py:1031: User layout: [['~\n`', '!\n1', '@\n2', '#\n3', '$\n4', '%\n5', '^\n6', '&\n7', '*\n8', '(\n9', ')\n0', '_\n-', '+\n=', {'w': 2}, 'Backspace'], [{'w': 1.5}, 'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{\n[', '}\n]', {'w': 1.5}, '|\n\\'], [{'w': 1.75}, 'Caps Lock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':\n;', '"\n\'', {'w': 2.25}, 'Enter'], [{'w': 2.25}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n,', '>\n.', '?\n/', {'w': 1.5}, 'Shift', {'w': 1.25}, 'del'], [{'w': 1.25}, 'Ctrl', {'w': 1.25}, 'Win', {'w': 1.25}, 'Alt', {'a': 7, 'w': 6.25}, '', {'a': 4, 'w': 1.25}, 'Alt', {'w': 1.25}, 'Win', {'w': 1.25}, 'Menu', {'w': 1.25}, 'Ctrl']]
+DEBUG: key_placer.py:755: Using key 1U distance: (19.05, 19.05) mm
+DEBUG: key_placer.py:773: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:1125: Layout with: x_ortholinear_keys=19, y_ortholinear_keys=62, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1150: Layout tagged: [<KeyboardTag.ROW_STAGGERED: 2>]
+DEBUG: board_modifier.py:119: Setting S1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:119: Setting S2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:119: Setting S3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:119: Setting S4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:119: Setting S5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:119: Setting S6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:119: Setting S7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:119: Setting S8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:119: Setting S9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:119: Setting S10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:119: Setting S11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:119: Setting S12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:119: Setting S13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:119: Setting S14 footprint position: (295275000, 38100000)
+DEBUG: board_modifier.py:119: Setting S15 footprint position: (42862500, 57150000)
+DEBUG: board_modifier.py:119: Setting S16 footprint position: (66675000, 57150000)
+DEBUG: board_modifier.py:119: Setting S17 footprint position: (85725000, 57150000)
+DEBUG: board_modifier.py:119: Setting S18 footprint position: (104775000, 57150000)
+DEBUG: board_modifier.py:119: Setting S19 footprint position: (123825000, 57150000)
+DEBUG: board_modifier.py:119: Setting S20 footprint position: (142875000, 57150000)
+DEBUG: board_modifier.py:119: Setting S21 footprint position: (161925000, 57150000)
+DEBUG: board_modifier.py:119: Setting S22 footprint position: (180975000, 57150000)
+DEBUG: board_modifier.py:119: Setting S23 footprint position: (200025000, 57150000)
+DEBUG: board_modifier.py:119: Setting S24 footprint position: (219075000, 57150000)
+DEBUG: board_modifier.py:119: Setting S25 footprint position: (238125000, 57150000)
+DEBUG: board_modifier.py:119: Setting S26 footprint position: (257175000, 57150000)
+DEBUG: board_modifier.py:119: Setting S27 footprint position: (276225000, 57150000)
+DEBUG: board_modifier.py:119: Setting S28 footprint position: (300037500, 57150000)
+DEBUG: board_modifier.py:119: Setting S29 footprint position: (45243750, 76200000)
+DEBUG: board_modifier.py:119: Setting S30 footprint position: (71437500, 76200000)
+DEBUG: board_modifier.py:119: Setting S31 footprint position: (90487500, 76200000)
+DEBUG: board_modifier.py:119: Setting S32 footprint position: (109537500, 76200000)
+DEBUG: board_modifier.py:119: Setting S33 footprint position: (128587500, 76200000)
+DEBUG: board_modifier.py:119: Setting S34 footprint position: (147637500, 76200000)
+DEBUG: board_modifier.py:119: Setting S35 footprint position: (166687500, 76200000)
+DEBUG: board_modifier.py:119: Setting S36 footprint position: (185737500, 76200000)
+DEBUG: board_modifier.py:119: Setting S37 footprint position: (204787500, 76200000)
+DEBUG: board_modifier.py:119: Setting S38 footprint position: (223837500, 76200000)
+DEBUG: board_modifier.py:119: Setting S39 footprint position: (242887500, 76200000)
+DEBUG: board_modifier.py:119: Setting S40 footprint position: (261937500, 76200000)
+DEBUG: board_modifier.py:119: Setting S41 footprint position: (292893750, 76200000)
+DEBUG: board_modifier.py:119: Setting S42 footprint position: (50006250, 95250000)
+DEBUG: board_modifier.py:119: Setting S43 footprint position: (80962500, 95250000)
+DEBUG: board_modifier.py:119: Setting S44 footprint position: (100012500, 95250000)
+DEBUG: board_modifier.py:119: Setting S45 footprint position: (119062500, 95250000)
+DEBUG: board_modifier.py:119: Setting S46 footprint position: (138112500, 95250000)
+DEBUG: board_modifier.py:119: Setting S47 footprint position: (157162500, 95250000)
+DEBUG: board_modifier.py:119: Setting S48 footprint position: (176212500, 95250000)
+DEBUG: board_modifier.py:119: Setting S49 footprint position: (195262500, 95250000)
+DEBUG: board_modifier.py:119: Setting S50 footprint position: (214312500, 95250000)
+DEBUG: board_modifier.py:119: Setting S51 footprint position: (233362500, 95250000)
+DEBUG: board_modifier.py:119: Setting S52 footprint position: (252412500, 95250000)
+DEBUG: board_modifier.py:119: Setting S53 footprint position: (276225000, 95250000)
+DEBUG: board_modifier.py:119: Setting S54 footprint position: (302418750, 95250000)
+DEBUG: board_modifier.py:119: Setting S55 footprint position: (40481250, 114300000)
+DEBUG: board_modifier.py:119: Setting S56 footprint position: (64293750, 114300000)
+DEBUG: board_modifier.py:119: Setting S57 footprint position: (88106250, 114300000)
+DEBUG: board_modifier.py:119: Setting S58 footprint position: (159543750, 114300000)
+DEBUG: board_modifier.py:119: Setting S59 footprint position: (230981250, 114300000)
+DEBUG: board_modifier.py:119: Setting S60 footprint position: (254793750, 114300000)
+DEBUG: board_modifier.py:119: Setting S61 footprint position: (278606250, 114300000)
+DEBUG: board_modifier.py:119: Setting S62 footprint position: (302418750, 114300000)
+INFO: key_placer.py:1173: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.CUSTOM: 'Custom'>, position=ElementPosition(x=7.0, y=6.0, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='', start_index=-1)]
+DEBUG: board_modifier.py:132: Getting S1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:119: Setting D2 footprint position: (31100001, 32100000)
+DEBUG: board_modifier.py:132: Getting D2 footprint position: (31100001, 32100000)
+DEBUG: board_modifier.py:132: Getting S2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:119: Setting D3 footprint position: (50150001, 32100000)
+DEBUG: board_modifier.py:132: Getting D3 footprint position: (50150001, 32100000)
+DEBUG: board_modifier.py:132: Getting S3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:119: Setting D4 footprint position: (69200001, 32100000)
+DEBUG: board_modifier.py:132: Getting D4 footprint position: (69200001, 32100000)
+DEBUG: board_modifier.py:132: Getting S4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:119: Setting D5 footprint position: (88250001, 32100000)
+DEBUG: board_modifier.py:132: Getting D5 footprint position: (88250001, 32100000)
+DEBUG: board_modifier.py:132: Getting S5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:119: Setting D6 footprint position: (107300001, 32100000)
+DEBUG: board_modifier.py:132: Getting D6 footprint position: (107300001, 32100000)
+DEBUG: board_modifier.py:132: Getting S6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:119: Setting D7 footprint position: (126350001, 32100000)
+DEBUG: board_modifier.py:132: Getting D7 footprint position: (126350001, 32100000)
+DEBUG: board_modifier.py:132: Getting S7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:119: Setting D8 footprint position: (145400001, 32100000)
+DEBUG: board_modifier.py:132: Getting D8 footprint position: (145400001, 32100000)
+DEBUG: board_modifier.py:132: Getting S8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:119: Setting D9 footprint position: (164450001, 32100000)
+DEBUG: board_modifier.py:132: Getting D9 footprint position: (164450001, 32100000)
+DEBUG: board_modifier.py:132: Getting S9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:119: Setting D10 footprint position: (183500001, 32100000)
+DEBUG: board_modifier.py:132: Getting D10 footprint position: (183500001, 32100000)
+DEBUG: board_modifier.py:132: Getting S10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:119: Setting D11 footprint position: (202550001, 32100000)
+DEBUG: board_modifier.py:132: Getting D11 footprint position: (202550001, 32100000)
+DEBUG: board_modifier.py:132: Getting S11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:119: Setting D12 footprint position: (221600001, 32100000)
+DEBUG: board_modifier.py:132: Getting D12 footprint position: (221600001, 32100000)
+DEBUG: board_modifier.py:132: Getting S12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:119: Setting D13 footprint position: (240650001, 32100000)
+DEBUG: board_modifier.py:132: Getting D13 footprint position: (240650001, 32100000)
+DEBUG: board_modifier.py:132: Getting S13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:119: Setting D14 footprint position: (259700001, 32100000)
+DEBUG: board_modifier.py:132: Getting D14 footprint position: (259700001, 32100000)
+DEBUG: board_modifier.py:132: Getting S14 footprint position: (295275000, 38100000)
+DEBUG: board_modifier.py:119: Setting D15 footprint position: (288275001, 32100000)
+DEBUG: board_modifier.py:132: Getting D15 footprint position: (288275001, 32100000)
+DEBUG: board_modifier.py:132: Getting S15 footprint position: (42862500, 57150000)
+DEBUG: board_modifier.py:119: Setting D16 footprint position: (35862501, 51150000)
+DEBUG: board_modifier.py:132: Getting D16 footprint position: (35862501, 51150000)
+DEBUG: board_modifier.py:132: Getting S16 footprint position: (66675000, 57150000)
+DEBUG: board_modifier.py:119: Setting D17 footprint position: (59675001, 51150000)
+DEBUG: board_modifier.py:132: Getting D17 footprint position: (59675001, 51150000)
+DEBUG: board_modifier.py:132: Getting S17 footprint position: (85725000, 57150000)
+DEBUG: board_modifier.py:119: Setting D18 footprint position: (78725001, 51150000)
+DEBUG: board_modifier.py:132: Getting D18 footprint position: (78725001, 51150000)
+DEBUG: board_modifier.py:132: Getting S18 footprint position: (104775000, 57150000)
+DEBUG: board_modifier.py:119: Setting D19 footprint position: (97775001, 51150000)
+DEBUG: board_modifier.py:132: Getting D19 footprint position: (97775001, 51150000)
+DEBUG: board_modifier.py:132: Getting S19 footprint position: (123825000, 57150000)
+DEBUG: board_modifier.py:119: Setting D20 footprint position: (116825001, 51150000)
+DEBUG: board_modifier.py:132: Getting D20 footprint position: (116825001, 51150000)
+DEBUG: board_modifier.py:132: Getting S20 footprint position: (142875000, 57150000)
+DEBUG: board_modifier.py:119: Setting D21 footprint position: (135875001, 51150000)
+DEBUG: board_modifier.py:132: Getting D21 footprint position: (135875001, 51150000)
+DEBUG: board_modifier.py:132: Getting S21 footprint position: (161925000, 57150000)
+DEBUG: board_modifier.py:119: Setting D22 footprint position: (154925001, 51150000)
+DEBUG: board_modifier.py:132: Getting D22 footprint position: (154925001, 51150000)
+DEBUG: board_modifier.py:132: Getting S22 footprint position: (180975000, 57150000)
+DEBUG: board_modifier.py:119: Setting D23 footprint position: (173975001, 51150000)
+DEBUG: board_modifier.py:132: Getting D23 footprint position: (173975001, 51150000)
+DEBUG: board_modifier.py:132: Getting S23 footprint position: (200025000, 57150000)
+DEBUG: board_modifier.py:119: Setting D24 footprint position: (193025001, 51150000)
+DEBUG: board_modifier.py:132: Getting D24 footprint position: (193025001, 51150000)
+DEBUG: board_modifier.py:132: Getting S24 footprint position: (219075000, 57150000)
+DEBUG: board_modifier.py:119: Setting D25 footprint position: (212075001, 51150000)
+DEBUG: board_modifier.py:132: Getting D25 footprint position: (212075001, 51150000)
+DEBUG: board_modifier.py:132: Getting S25 footprint position: (238125000, 57150000)
+DEBUG: board_modifier.py:119: Setting D26 footprint position: (231125001, 51150000)
+DEBUG: board_modifier.py:132: Getting D26 footprint position: (231125001, 51150000)
+DEBUG: board_modifier.py:132: Getting S26 footprint position: (257175000, 57150000)
+DEBUG: board_modifier.py:119: Setting D27 footprint position: (250175001, 51150000)
+DEBUG: board_modifier.py:132: Getting D27 footprint position: (250175001, 51150000)
+DEBUG: board_modifier.py:132: Getting S27 footprint position: (276225000, 57150000)
+DEBUG: board_modifier.py:119: Setting D28 footprint position: (269225001, 51150000)
+DEBUG: board_modifier.py:132: Getting D28 footprint position: (269225001, 51150000)
+DEBUG: board_modifier.py:132: Getting S28 footprint position: (300037500, 57150000)
+DEBUG: board_modifier.py:119: Setting D29 footprint position: (293037501, 51150000)
+DEBUG: board_modifier.py:132: Getting D29 footprint position: (293037501, 51150000)
+DEBUG: board_modifier.py:132: Getting S29 footprint position: (45243750, 76200000)
+DEBUG: board_modifier.py:119: Setting D30 footprint position: (38243751, 70200000)
+DEBUG: board_modifier.py:132: Getting D30 footprint position: (38243751, 70200000)
+DEBUG: board_modifier.py:132: Getting S30 footprint position: (71437500, 76200000)
+DEBUG: board_modifier.py:119: Setting D31 footprint position: (64437501, 70200000)
+DEBUG: board_modifier.py:132: Getting D31 footprint position: (64437501, 70200000)
+DEBUG: board_modifier.py:132: Getting S31 footprint position: (90487500, 76200000)
+DEBUG: board_modifier.py:119: Setting D32 footprint position: (83487501, 70200000)
+DEBUG: board_modifier.py:132: Getting D32 footprint position: (83487501, 70200000)
+DEBUG: board_modifier.py:132: Getting S32 footprint position: (109537500, 76200000)
+DEBUG: board_modifier.py:119: Setting D33 footprint position: (102537501, 70200000)
+DEBUG: board_modifier.py:132: Getting D33 footprint position: (102537501, 70200000)
+DEBUG: board_modifier.py:132: Getting S33 footprint position: (128587500, 76200000)
+DEBUG: board_modifier.py:119: Setting D34 footprint position: (121587501, 70200000)
+DEBUG: board_modifier.py:132: Getting D34 footprint position: (121587501, 70200000)
+DEBUG: board_modifier.py:132: Getting S34 footprint position: (147637500, 76200000)
+DEBUG: board_modifier.py:119: Setting D35 footprint position: (140637501, 70200000)
+DEBUG: board_modifier.py:132: Getting D35 footprint position: (140637501, 70200000)
+DEBUG: board_modifier.py:132: Getting S35 footprint position: (166687500, 76200000)
+DEBUG: board_modifier.py:119: Setting D36 footprint position: (159687501, 70200000)
+DEBUG: board_modifier.py:132: Getting D36 footprint position: (159687501, 70200000)
+DEBUG: board_modifier.py:132: Getting S36 footprint position: (185737500, 76200000)
+DEBUG: board_modifier.py:119: Setting D37 footprint position: (178737501, 70200000)
+DEBUG: board_modifier.py:132: Getting D37 footprint position: (178737501, 70200000)
+DEBUG: board_modifier.py:132: Getting S37 footprint position: (204787500, 76200000)
+DEBUG: board_modifier.py:119: Setting D38 footprint position: (197787501, 70200000)
+DEBUG: board_modifier.py:132: Getting D38 footprint position: (197787501, 70200000)
+DEBUG: board_modifier.py:132: Getting S38 footprint position: (223837500, 76200000)
+DEBUG: board_modifier.py:119: Setting D39 footprint position: (216837501, 70200000)
+DEBUG: board_modifier.py:132: Getting D39 footprint position: (216837501, 70200000)
+DEBUG: board_modifier.py:132: Getting S39 footprint position: (242887500, 76200000)
+DEBUG: board_modifier.py:119: Setting D40 footprint position: (235887501, 70200000)
+DEBUG: board_modifier.py:132: Getting D40 footprint position: (235887501, 70200000)
+DEBUG: board_modifier.py:132: Getting S40 footprint position: (261937500, 76200000)
+DEBUG: board_modifier.py:119: Setting D41 footprint position: (254937501, 70200000)
+DEBUG: board_modifier.py:132: Getting D41 footprint position: (254937501, 70200000)
+DEBUG: board_modifier.py:132: Getting S41 footprint position: (292893750, 76200000)
+DEBUG: board_modifier.py:119: Setting D42 footprint position: (285893751, 70200000)
+DEBUG: board_modifier.py:132: Getting D42 footprint position: (285893751, 70200000)
+DEBUG: board_modifier.py:132: Getting S42 footprint position: (50006250, 95250000)
+DEBUG: board_modifier.py:119: Setting D44 footprint position: (43006251, 89250000)
+DEBUG: board_modifier.py:132: Getting D44 footprint position: (43006251, 89250000)
+DEBUG: board_modifier.py:132: Getting S43 footprint position: (80962500, 95250000)
+DEBUG: board_modifier.py:119: Setting D45 footprint position: (73962501, 89250000)
+DEBUG: board_modifier.py:132: Getting D45 footprint position: (73962501, 89250000)
+DEBUG: board_modifier.py:132: Getting S44 footprint position: (100012500, 95250000)
+DEBUG: board_modifier.py:119: Setting D46 footprint position: (93012501, 89250000)
+DEBUG: board_modifier.py:132: Getting D46 footprint position: (93012501, 89250000)
+DEBUG: board_modifier.py:132: Getting S45 footprint position: (119062500, 95250000)
+DEBUG: board_modifier.py:119: Setting D47 footprint position: (112062501, 89250000)
+DEBUG: board_modifier.py:132: Getting D47 footprint position: (112062501, 89250000)
+DEBUG: board_modifier.py:132: Getting S46 footprint position: (138112500, 95250000)
+DEBUG: board_modifier.py:119: Setting D48 footprint position: (131112501, 89250000)
+DEBUG: board_modifier.py:132: Getting D48 footprint position: (131112501, 89250000)
+DEBUG: board_modifier.py:132: Getting S47 footprint position: (157162500, 95250000)
+DEBUG: board_modifier.py:119: Setting D49 footprint position: (150162501, 89250000)
+DEBUG: board_modifier.py:132: Getting D49 footprint position: (150162501, 89250000)
+DEBUG: board_modifier.py:132: Getting S48 footprint position: (176212500, 95250000)
+DEBUG: board_modifier.py:119: Setting D50 footprint position: (169212501, 89250000)
+DEBUG: board_modifier.py:132: Getting D50 footprint position: (169212501, 89250000)
+DEBUG: board_modifier.py:132: Getting S49 footprint position: (195262500, 95250000)
+DEBUG: board_modifier.py:119: Setting D51 footprint position: (188262501, 89250000)
+DEBUG: board_modifier.py:132: Getting D51 footprint position: (188262501, 89250000)
+DEBUG: board_modifier.py:132: Getting S50 footprint position: (214312500, 95250000)
+DEBUG: board_modifier.py:119: Setting D52 footprint position: (207312501, 89250000)
+DEBUG: board_modifier.py:132: Getting D52 footprint position: (207312501, 89250000)
+DEBUG: board_modifier.py:132: Getting S51 footprint position: (233362500, 95250000)
+DEBUG: board_modifier.py:119: Setting D53 footprint position: (226362501, 89250000)
+DEBUG: board_modifier.py:132: Getting D53 footprint position: (226362501, 89250000)
+DEBUG: board_modifier.py:132: Getting S52 footprint position: (252412500, 95250000)
+DEBUG: board_modifier.py:119: Setting D54 footprint position: (245412501, 89250000)
+DEBUG: board_modifier.py:132: Getting D54 footprint position: (245412501, 89250000)
+DEBUG: board_modifier.py:132: Getting S53 footprint position: (276225000, 95250000)
+DEBUG: board_modifier.py:119: Setting D55 footprint position: (269225001, 89250000)
+DEBUG: board_modifier.py:132: Getting D55 footprint position: (269225001, 89250000)
+DEBUG: board_modifier.py:132: Getting S54 footprint position: (302418750, 95250000)
+DEBUG: board_modifier.py:119: Setting D43 footprint position: (295418751, 89250000)
+DEBUG: board_modifier.py:132: Getting D43 footprint position: (295418751, 89250000)
+DEBUG: board_modifier.py:132: Getting S55 footprint position: (40481250, 114300000)
+DEBUG: board_modifier.py:119: Setting D56 footprint position: (33481251, 108300000)
+DEBUG: board_modifier.py:132: Getting D56 footprint position: (33481251, 108300000)
+DEBUG: board_modifier.py:132: Getting S56 footprint position: (64293750, 114300000)
+DEBUG: board_modifier.py:119: Setting D57 footprint position: (57293751, 108300000)
+DEBUG: board_modifier.py:132: Getting D57 footprint position: (57293751, 108300000)
+DEBUG: board_modifier.py:132: Getting S57 footprint position: (88106250, 114300000)
+DEBUG: board_modifier.py:119: Setting D58 footprint position: (81106251, 108300000)
+DEBUG: board_modifier.py:132: Getting D58 footprint position: (81106251, 108300000)
+DEBUG: board_modifier.py:132: Getting S58 footprint position: (159543750, 114300000)
+DEBUG: board_modifier.py:119: Setting D59 footprint position: (152543751, 108300000)
+DEBUG: board_modifier.py:132: Getting D59 footprint position: (152543751, 108300000)
+DEBUG: board_modifier.py:132: Getting S59 footprint position: (230981250, 114300000)
+DEBUG: board_modifier.py:119: Setting D60 footprint position: (223981251, 108300000)
+DEBUG: board_modifier.py:132: Getting D60 footprint position: (223981251, 108300000)
+DEBUG: board_modifier.py:132: Getting S60 footprint position: (254793750, 114300000)
+DEBUG: board_modifier.py:119: Setting D61 footprint position: (247793751, 108300000)
+DEBUG: board_modifier.py:132: Getting D61 footprint position: (247793751, 108300000)
+DEBUG: board_modifier.py:132: Getting S61 footprint position: (278606250, 114300000)
+DEBUG: board_modifier.py:119: Setting D62 footprint position: (271606251, 108300000)
+DEBUG: board_modifier.py:132: Getting D62 footprint position: (271606251, 108300000)
+DEBUG: board_modifier.py:132: Getting S62 footprint position: (302418750, 114300000)
+DEBUG: board_modifier.py:119: Setting D63 footprint position: (295418751, 108300000)
+DEBUG: board_modifier.py:132: Getting D63 footprint position: (295418751, 108300000)
+DEBUG: board_modifier.py:132: Getting ST1 footprint position: (292893750, 76200000)
+DEBUG: board_modifier.py:132: Getting ST2 footprint position: (50006250, 95250000)
+DEBUG: board_modifier.py:132: Getting ST3 footprint position: (159543750, 114300000)
+DEBUG: board_modifier.py:132: Getting ST4 footprint position: (159543750, 114300000)
+DEBUG: key_placer.py:928: Placing additional elements for S20
+DEBUG: board_modifier.py:132: Getting S20 footprint position: (142875000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB20 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB20 footprint position: (142875000, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB20 footprint position: (142875000, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S19
+DEBUG: board_modifier.py:132: Getting S19 footprint position: (123825000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB19 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB19 footprint position: (123825000, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB19 footprint position: (123825000, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for ST1
+DEBUG: board_modifier.py:132: Getting ST1 footprint position: (292893750, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGBT1 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for S45
+DEBUG: board_modifier.py:132: Getting S45 footprint position: (119062500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB45 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB45 footprint position: (119062500, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB45 footprint position: (119062500, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S4
+DEBUG: board_modifier.py:132: Getting S4 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB4 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB4 footprint position: (95250000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB4 footprint position: (95250000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for S7
+DEBUG: board_modifier.py:132: Getting S7 footprint position: (152400000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB7 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB7 footprint position: (152400000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB7 footprint position: (152400000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for S12
+DEBUG: board_modifier.py:132: Getting S12 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB12 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB12 footprint position: (247650000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB12 footprint position: (247650000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for S59
+DEBUG: board_modifier.py:132: Getting S59 footprint position: (230981250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional RGB59 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB59 footprint position: (230981250, 109000000)
+DEBUG: board_modifier.py:132: Getting RGB59 footprint position: (230981250, 109000000)
+DEBUG: key_placer.py:928: Placing additional elements for S3
+DEBUG: board_modifier.py:132: Getting S3 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB3 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB3 footprint position: (76200000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB3 footprint position: (76200000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for S15
+DEBUG: board_modifier.py:132: Getting S15 footprint position: (42862500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB15 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB15 footprint position: (42862500, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB15 footprint position: (42862500, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S25
+DEBUG: board_modifier.py:132: Getting S25 footprint position: (238125000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB25 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB25 footprint position: (238125000, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB25 footprint position: (238125000, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S1
+DEBUG: board_modifier.py:132: Getting S1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB1 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB1 footprint position: (38100000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB1 footprint position: (38100000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for S9
+DEBUG: board_modifier.py:132: Getting S9 footprint position: (190500000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB9 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB9 footprint position: (190500000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB9 footprint position: (190500000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for S23
+DEBUG: board_modifier.py:132: Getting S23 footprint position: (200025000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB23 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB23 footprint position: (200025000, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB23 footprint position: (200025000, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S54
+DEBUG: board_modifier.py:132: Getting S54 footprint position: (302418750, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB54 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB54 footprint position: (302418750, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB54 footprint position: (302418750, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S14
+DEBUG: board_modifier.py:132: Getting S14 footprint position: (295275000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB14 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB14 footprint position: (295275000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB14 footprint position: (295275000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for S58
+DEBUG: board_modifier.py:132: Getting S58 footprint position: (159543750, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional RGB58 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB58 footprint position: (159543750, 109000000)
+DEBUG: board_modifier.py:132: Getting RGB58 footprint position: (159543750, 109000000)
+DEBUG: key_placer.py:928: Placing additional elements for S16
+DEBUG: board_modifier.py:132: Getting S16 footprint position: (66675000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB16 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB16 footprint position: (66675000, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB16 footprint position: (66675000, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S24
+DEBUG: board_modifier.py:132: Getting S24 footprint position: (219075000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB24 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB24 footprint position: (219075000, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB24 footprint position: (219075000, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S31
+DEBUG: board_modifier.py:132: Getting S31 footprint position: (90487500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB31 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB31 footprint position: (90487500, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB31 footprint position: (90487500, 70900000)
+DEBUG: key_placer.py:928: Placing additional elements for ST4
+DEBUG: board_modifier.py:132: Getting ST4 footprint position: (159543750, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional RGBT4 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for S33
+DEBUG: board_modifier.py:132: Getting S33 footprint position: (128587500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB33 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB33 footprint position: (128587500, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB33 footprint position: (128587500, 70900000)
+DEBUG: key_placer.py:928: Placing additional elements for S34
+DEBUG: board_modifier.py:132: Getting S34 footprint position: (147637500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB34 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB34 footprint position: (147637500, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB34 footprint position: (147637500, 70900000)
+DEBUG: key_placer.py:928: Placing additional elements for S44
+DEBUG: board_modifier.py:132: Getting S44 footprint position: (100012500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB44 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB44 footprint position: (100012500, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB44 footprint position: (100012500, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S48
+DEBUG: board_modifier.py:132: Getting S48 footprint position: (176212500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB48 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB48 footprint position: (176212500, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB48 footprint position: (176212500, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S62
+DEBUG: board_modifier.py:132: Getting S62 footprint position: (302418750, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional RGB62 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB62 footprint position: (302418750, 109000000)
+DEBUG: board_modifier.py:132: Getting RGB62 footprint position: (302418750, 109000000)
+DEBUG: key_placer.py:928: Placing additional elements for S22
+DEBUG: board_modifier.py:132: Getting S22 footprint position: (180975000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB22 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB22 footprint position: (180975000, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB22 footprint position: (180975000, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S27
+DEBUG: board_modifier.py:132: Getting S27 footprint position: (276225000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB27 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB27 footprint position: (276225000, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB27 footprint position: (276225000, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S55
+DEBUG: board_modifier.py:132: Getting S55 footprint position: (40481250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional RGB55 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB55 footprint position: (40481250, 109000000)
+DEBUG: board_modifier.py:132: Getting RGB55 footprint position: (40481250, 109000000)
+DEBUG: key_placer.py:928: Placing additional elements for S8
+DEBUG: board_modifier.py:132: Getting S8 footprint position: (171450000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB8 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB8 footprint position: (171450000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB8 footprint position: (171450000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for ST3
+DEBUG: board_modifier.py:132: Getting ST3 footprint position: (159543750, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional RGBT3 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for S60
+DEBUG: board_modifier.py:132: Getting S60 footprint position: (254793750, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional RGB60 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB60 footprint position: (254793750, 109000000)
+DEBUG: board_modifier.py:132: Getting RGB60 footprint position: (254793750, 109000000)
+DEBUG: key_placer.py:928: Placing additional elements for S37
+DEBUG: board_modifier.py:132: Getting S37 footprint position: (204787500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB37 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB37 footprint position: (204787500, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB37 footprint position: (204787500, 70900000)
+DEBUG: key_placer.py:928: Placing additional elements for S21
+DEBUG: board_modifier.py:132: Getting S21 footprint position: (161925000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB21 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB21 footprint position: (161925000, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB21 footprint position: (161925000, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S11
+DEBUG: board_modifier.py:132: Getting S11 footprint position: (228600000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB11 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB11 footprint position: (228600000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB11 footprint position: (228600000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for ST2
+DEBUG: board_modifier.py:132: Getting ST2 footprint position: (50006250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGBT2 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:928: Placing additional elements for S50
+DEBUG: board_modifier.py:132: Getting S50 footprint position: (214312500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB50 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB50 footprint position: (214312500, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB50 footprint position: (214312500, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S30
+DEBUG: board_modifier.py:132: Getting S30 footprint position: (71437500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB30 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB30 footprint position: (71437500, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB30 footprint position: (71437500, 70900000)
+DEBUG: key_placer.py:928: Placing additional elements for S38
+DEBUG: board_modifier.py:132: Getting S38 footprint position: (223837500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB38 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB38 footprint position: (223837500, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB38 footprint position: (223837500, 70900000)
+DEBUG: key_placer.py:928: Placing additional elements for S35
+DEBUG: board_modifier.py:132: Getting S35 footprint position: (166687500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB35 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB35 footprint position: (166687500, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB35 footprint position: (166687500, 70900000)
+DEBUG: key_placer.py:928: Placing additional elements for S28
+DEBUG: board_modifier.py:132: Getting S28 footprint position: (300037500, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB28 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB28 footprint position: (300037500, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB28 footprint position: (300037500, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S39
+DEBUG: board_modifier.py:132: Getting S39 footprint position: (242887500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB39 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB39 footprint position: (242887500, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB39 footprint position: (242887500, 70900000)
+DEBUG: key_placer.py:928: Placing additional elements for S46
+DEBUG: board_modifier.py:132: Getting S46 footprint position: (138112500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB46 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB46 footprint position: (138112500, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB46 footprint position: (138112500, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S18
+DEBUG: board_modifier.py:132: Getting S18 footprint position: (104775000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB18 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB18 footprint position: (104775000, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB18 footprint position: (104775000, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S41
+DEBUG: board_modifier.py:132: Getting S41 footprint position: (292893750, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB41 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB41 footprint position: (292893750, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB41 footprint position: (292893750, 70900000)
+DEBUG: key_placer.py:928: Placing additional elements for S43
+DEBUG: board_modifier.py:132: Getting S43 footprint position: (80962500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB43 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB43 footprint position: (80962500, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB43 footprint position: (80962500, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S13
+DEBUG: board_modifier.py:132: Getting S13 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB13 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB13 footprint position: (266700000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB13 footprint position: (266700000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for S26
+DEBUG: board_modifier.py:132: Getting S26 footprint position: (257175000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB26 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB26 footprint position: (257175000, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB26 footprint position: (257175000, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S5
+DEBUG: board_modifier.py:132: Getting S5 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB5 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB5 footprint position: (114300000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB5 footprint position: (114300000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for S17
+DEBUG: board_modifier.py:132: Getting S17 footprint position: (85725000, 57150000)
+DEBUG: board_modifier.py:84: Searching for optional RGB17 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB17 footprint position: (85725000, 51850000)
+DEBUG: board_modifier.py:132: Getting RGB17 footprint position: (85725000, 51850000)
+DEBUG: key_placer.py:928: Placing additional elements for S32
+DEBUG: board_modifier.py:132: Getting S32 footprint position: (109537500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB32 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB32 footprint position: (109537500, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB32 footprint position: (109537500, 70900000)
+DEBUG: key_placer.py:928: Placing additional elements for S42
+DEBUG: board_modifier.py:132: Getting S42 footprint position: (50006250, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB42 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB42 footprint position: (50006250, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB42 footprint position: (50006250, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S36
+DEBUG: board_modifier.py:132: Getting S36 footprint position: (185737500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB36 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB36 footprint position: (185737500, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB36 footprint position: (185737500, 70900000)
+DEBUG: key_placer.py:928: Placing additional elements for S47
+DEBUG: board_modifier.py:132: Getting S47 footprint position: (157162500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB47 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB47 footprint position: (157162500, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB47 footprint position: (157162500, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S57
+DEBUG: board_modifier.py:132: Getting S57 footprint position: (88106250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional RGB57 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB57 footprint position: (88106250, 109000000)
+DEBUG: board_modifier.py:132: Getting RGB57 footprint position: (88106250, 109000000)
+DEBUG: key_placer.py:928: Placing additional elements for S51
+DEBUG: board_modifier.py:132: Getting S51 footprint position: (233362500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB51 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB51 footprint position: (233362500, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB51 footprint position: (233362500, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S10
+DEBUG: board_modifier.py:132: Getting S10 footprint position: (209550000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB10 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB10 footprint position: (209550000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB10 footprint position: (209550000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for S56
+DEBUG: board_modifier.py:132: Getting S56 footprint position: (64293750, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional RGB56 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB56 footprint position: (64293750, 109000000)
+DEBUG: board_modifier.py:132: Getting RGB56 footprint position: (64293750, 109000000)
+DEBUG: key_placer.py:928: Placing additional elements for S53
+DEBUG: board_modifier.py:132: Getting S53 footprint position: (276225000, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB53 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB53 footprint position: (276225000, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB53 footprint position: (276225000, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S52
+DEBUG: board_modifier.py:132: Getting S52 footprint position: (252412500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB52 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB52 footprint position: (252412500, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB52 footprint position: (252412500, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S49
+DEBUG: board_modifier.py:132: Getting S49 footprint position: (195262500, 95250000)
+DEBUG: board_modifier.py:84: Searching for optional RGB49 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB49 footprint position: (195262500, 89950000)
+DEBUG: board_modifier.py:132: Getting RGB49 footprint position: (195262500, 89950000)
+DEBUG: key_placer.py:928: Placing additional elements for S29
+DEBUG: board_modifier.py:132: Getting S29 footprint position: (45243750, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB29 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB29 footprint position: (45243750, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB29 footprint position: (45243750, 70900000)
+DEBUG: key_placer.py:928: Placing additional elements for S6
+DEBUG: board_modifier.py:132: Getting S6 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB6 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB6 footprint position: (133350000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB6 footprint position: (133350000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for S2
+DEBUG: board_modifier.py:132: Getting S2 footprint position: (57150000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional RGB2 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB2 footprint position: (57150000, 32800000)
+DEBUG: board_modifier.py:132: Getting RGB2 footprint position: (57150000, 32800000)
+DEBUG: key_placer.py:928: Placing additional elements for S61
+DEBUG: board_modifier.py:132: Getting S61 footprint position: (278606250, 114300000)
+DEBUG: board_modifier.py:84: Searching for optional RGB61 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB61 footprint position: (278606250, 109000000)
+DEBUG: board_modifier.py:132: Getting RGB61 footprint position: (278606250, 109000000)
+DEBUG: key_placer.py:928: Placing additional elements for S40
+DEBUG: board_modifier.py:132: Getting S40 footprint position: (261937500, 76200000)
+DEBUG: board_modifier.py:84: Searching for optional RGB40 footprint in C:/Users/29854/Documents/github/ph_CW_V1/PH60Slim-Choc/PCB/Rev2.1/PH60-SC_Rev2.1.kicad_pcb
+DEBUG: board_modifier.py:119: Setting RGB40 footprint position: (261937500, 70900000)
+DEBUG: board_modifier.py:132: Getting RGB40 footprint position: (261937500, 70900000)
