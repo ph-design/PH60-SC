@@ -4664,16 +4664,6 @@
 		)
 		(uuid "3f240bd0-ff25-489b-931e-b5a0ee77d169")
 	)
-	(text "C27（DNF）"
-		(exclude_from_sim no)
-		(at 124.714 78.994 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "625825c1-9092-4a0d-b8c2-af1a66911230")
-	)
 	(text "ESD"
 		(exclude_from_sim no)
 		(at 54.61 133.096 0)
@@ -4693,6 +4683,12 @@
 			)
 		)
 		(uuid "d2cc97ff-52d2-4d73-be4d-623d7be7cb76")
+	)
+	(junction
+		(at 148.59 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06209db0-b364-48c7-bcec-ff8ffee3f432")
 	)
 	(junction
 		(at 288.29 34.29)
@@ -4734,7 +4730,7 @@
 		(at 132.08 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "499fcd26-6405-4847-94a8-e268e79cea66")
+		(uuid "457a28f0-d245-4923-a2bf-843e1e877cb1")
 	)
 	(junction
 		(at 198.12 22.86)
@@ -4952,12 +4948,6 @@
 		(color 0 0 0 0)
 		(uuid "e601cc5a-fb0e-4ef9-803d-065eff0ee579")
 	)
-	(junction
-		(at 148.59 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6d43647-93ac-430b-be39-732215f292ff")
-	)
 	(no_connect
 		(at 241.3 101.6)
 		(uuid "05936928-6ab5-41af-937c-6403d41bd598")
@@ -5085,16 +5075,6 @@
 			(type default)
 		)
 		(uuid "09e8103c-c453-4678-b83a-7678f2173e3c")
-	)
-	(wire
-		(pts
-			(xy 143.51 73.66) (xy 148.59 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0be7d347-a850-414a-b27d-72daf07d1105")
 	)
 	(wire
 		(pts
@@ -5808,6 +5788,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 73.66) (xy 148.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6381d3ba-65b5-4aa6-a83b-c4ab77ec31a1")
+	)
+	(wire
+		(pts
 			(xy 298.45 41.91) (xy 298.45 45.72)
 		)
 		(stroke
@@ -5905,6 +5895,16 @@
 			(type default)
 		)
 		(uuid "6fffb2e8-d99d-43af-96a7-b170311eb4e0")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709ddaa6-beed-483c-bee3-91c42339316d")
 	)
 	(wire
 		(pts
@@ -6355,16 +6355,6 @@
 			(type default)
 		)
 		(uuid "b0a901b3-e75c-4728-bc18-e30e5ad6291a")
-	)
-	(wire
-		(pts
-			(xy 132.08 73.66) (xy 138.43 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1bce537-03d9-4d31-8c38-1c11b7959c87")
 	)
 	(wire
 		(pts
@@ -7900,6 +7890,86 @@
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09f12491-71e7-40e7-8d33-b3c0d6e77e10")
+		(property "Reference" "R9"
+			(at 139.7 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 139.7 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 139.7 75.438 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f4e38f39-44e1-496d-9aea-418758847fc6")
+		)
+		(pin "1"
+			(uuid "39fbb95d-ab02-4685-bf5b-358cf7d10ee8")
+		)
+		(instances
+			(project "PH60-SC_Rev2.1"
+				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9770,7 +9840,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.8p"
+		(property "Value" "0.5p"
 			(at 151.13 78.7335 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10487,7 +10557,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12590,86 +12660,6 @@
 			(project "PH60-SC_Rev2.1"
 				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 140.97 73.66 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc8128e4-2a54-4cca-932e-9ea0f6e28b49")
-		(property "Reference" "L5"
-			(at 140.97 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.2 nH"
-			(at 140.97 71.12 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 140.97 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 140.97 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "99b40dc4-b1f6-4ab3-9742-055d4c1d81b6")
-		)
-		(pin "1"
-			(uuid "4f326948-3e60-4e4a-950d-5565dff39522")
-		)
-		(instances
-			(project "PH60-SC_Rev2.1"
-				(path "/dca0f898-8fdb-4522-a51d-f4f4238906e7"
-					(reference "L5")
 					(unit 1)
 				)
 			)
