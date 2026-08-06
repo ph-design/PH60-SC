@@ -1683,6 +1683,10 @@
 		(uuid "1e2266ba-ef1e-4004-a1e4-30bf4857459d")
 	)
 	(no_connect
+		(at 181.61 101.6)
+		(uuid "807fb84a-7996-43c2-96db-ea21f7c0bae1")
+	)
+	(no_connect
 		(at 49.53 46.99)
 		(uuid "f22a4189-5a5c-4f5d-a3fc-997396774fe7")
 	)
@@ -2277,30 +2281,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "BATT_STAT"
-		(shape input)
-		(at 181.61 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de598e47-5b8f-435a-9f0b-bb0e9494b915")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.0899 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
