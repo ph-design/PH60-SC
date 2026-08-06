@@ -12936,6 +12936,12 @@
 		(path "/35650eb6-88a0-4726-bc44-8bdf2a664b37")
 		(sheetname "/")
 		(sheetfile "PH60-SC_Rev2.1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -134984,7 +134990,7 @@
 		(uuid "072b8353-35d1-459a-b841-11949411e497")
 	)
 	(via
-		(at 149.343 107.349)
+		(at 149.765 107.635)
 		(size 0.55)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
