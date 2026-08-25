@@ -10743,7 +10743,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LIS2DE12"
+		(property "Value" "LIS2DH12"
 			(at 126.6033 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
