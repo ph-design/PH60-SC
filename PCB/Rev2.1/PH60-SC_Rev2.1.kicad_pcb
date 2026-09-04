@@ -85023,6 +85023,7 @@
 		(property "Reference" "D63"
 			(at 0 2 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "6b1d71d9-f354-4da6-94fc-ef95f793c609")
 			(effects
 				(font
